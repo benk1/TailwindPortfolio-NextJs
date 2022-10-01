@@ -6,29 +6,30 @@ import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 // import { useRouter } from 'next/router';
 import NavLogo from '../public/assets/images/logo.png';
+import { useRouter } from 'next/router';
 
 const Navbar = () => {
 	const [nav, setNav] = useState(false);
 	const [shadow, setShadow] = useState(false);
 	const [navBg, setNavBg] = useState('#ecf0f3');
 	const [linkColor, setLinkColor] = useState('#1f2937');
-	// const [position, setPosition] = useState('fixed')
-	// const router = useRouter();
+	const [position, setPosition] = useState('fixed')
+	const router = useRouter();
 
-	// useEffect(() => {
-	//   if (
-	//     router.asPath === '/property' ||
-	//     router.asPath === '/crypto' ||
-	//     router.asPath === '/netflix' ||
-	//     router.asPath === '/twitch'
-	//   ) {
-	//     setNavBg('transparent');
-	//     setLinkColor('#ecf0f3');
-	//   } else {
-	//     setNavBg('#ecf0f3');
-	//     setLinkColor('#1f2937');
-	//   }
-	// }, [router]);
+	useEffect(() => {
+	  if (
+	    router.asPath === '/property' ||
+	    router.asPath === '/crypto' ||
+	    router.asPath === '/netflix' ||
+	    router.asPath === '/twitch'
+	  ) {
+	    setNavBg('transparent');
+	    setLinkColor('#ecf0f3');
+	  } else {
+	    setNavBg('#ecf0f3');
+	    setLinkColor('#1f2937');
+	  }
+	}, [router]);
 
 	const handleNav = () => {
 		setNav(!nav);
@@ -54,7 +55,7 @@ const Navbar = () => {
 					: 'fixed w-full h-20 z-[100]'
 			}
 		>
-			<div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
+			<div className="flex items-center justify-between w-full h-full px-2 2xl:px-16">
 				<Link href="/">
 					<a>
 						<Image
@@ -114,7 +115,7 @@ const Navbar = () => {
 					}
 				>
 					<div>
-						<div className="flex w-full items-center justify-between">
+						<div className="flex items-center justify-between w-full">
 							<Link href="/">
 								<a>
 									<Image src={NavLogo} width="87" height="35" alt="/" />
@@ -122,18 +123,18 @@ const Navbar = () => {
 							</Link>
 							<div
 								onClick={handleNav}
-								className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"
+								className="p-3 rounded-full shadow-lg cursor-pointer shadow-gray-400"
 							>
 								<AiOutlineClose />
 							</div>
 						</div>
-						<div className="border-b border-gray-300 my-4">
+						<div className="my-4 border-b border-gray-300">
 							<p className="w-[85%] md:w-[90%] py-4">
 								Let&#39;s build something legendary together
 							</p>
 						</div>
 					</div>
-					<div className="py-4 flex flex-col">
+					<div className="flex flex-col py-4">
 						<ul className="uppercase">
 							<Link href="/">
 								<li onClick={() => setNav(false)} className="py-4 text-sm">
@@ -176,7 +177,7 @@ const Navbar = () => {
 									target="_blank"
 									rel="noreferrer"
 								>
-									<div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+									<div className="p-3 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105">
 										<FaLinkedinIn />
 									</div>
 								</a>
@@ -185,14 +186,14 @@ const Navbar = () => {
 									target="_blank"
 									rel="noreferrer"
 								>
-									<div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+									<div className="p-3 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105">
 										<FaGithub />
 									</div>
 								</a>
 								<Link href="/#contact">
 									<div
 										onClick={() => setNav(!nav)}
-										className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
+										className="p-3 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105"
 									>
 										<AiOutlineMail />
 									</div>
@@ -200,7 +201,7 @@ const Navbar = () => {
 								<Link href="/resume">
 									<div
 										onClick={() => setNav(!nav)}
-										className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
+										className="p-3 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105"
 									>
 										<BsFillPersonLinesFill />
 									</div>
