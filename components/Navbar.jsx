@@ -6,6 +6,7 @@ import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 // import { useRouter } from 'next/router';
 import NavLogo from '../public/assets/images/logo.png';
+import moon from '../public/assets/images/moon.png';
 import { useRouter } from 'next/router';
 
 const Navbar = () => {
@@ -13,22 +14,22 @@ const Navbar = () => {
 	const [shadow, setShadow] = useState(false);
 	const [navBg, setNavBg] = useState('#ecf0f3');
 	const [linkColor, setLinkColor] = useState('#1f2937');
-	const [position, setPosition] = useState('fixed')
+	const [position, setPosition] = useState('fixed');
 	const router = useRouter();
 
 	useEffect(() => {
-	  if (
-	    router.asPath === '/property' ||
-	    router.asPath === '/crypto' ||
-	    router.asPath === '/netflix' ||
-	    router.asPath === '/twitch'
-	  ) {
-	    setNavBg('transparent');
-	    setLinkColor('#ecf0f3');
-	  } else {
-	    setNavBg('#ecf0f3');
-	    setLinkColor('#1f2937');
-	  }
+		if (
+			router.asPath === '/property' ||
+			router.asPath === '/crypto' ||
+			router.asPath === '/netflix' ||
+			router.asPath === '/twitch'
+		) {
+			setNavBg('transparent');
+			setLinkColor('#ecf0f3');
+		} else {
+			setNavBg('#ecf0f3');
+			setLinkColor('#1f2937');
+		}
 	}, [router]);
 
 	const handleNav = () => {
@@ -51,8 +52,8 @@ const Navbar = () => {
 			style={{ backgroundColor: `${navBg}` }}
 			className={
 				shadow
-					? 'fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300'
-					: 'fixed w-full h-20 z-[100]'
+					? 'fixed w-full h-15 shadow-xl z-[100] ease-in-out duration-300'
+					: 'fixed w-full h-15 z-[100]'
 			}
 		>
 			<div className="flex items-center justify-between w-full h-full px-2 2xl:px-16">
@@ -68,25 +69,32 @@ const Navbar = () => {
 					</a>
 				</Link>
 				<div>
-					<ul style={{ color: `${linkColor}` }} className="hidden md:flex">
-						<li className="ml-10 text-sm uppercase hover:border-b">
+					<ul style={{ color: `${linkColor}` }} className="items-center hidden gap-3 md:flex">
+						<li className="ml-10 text-sm uppercase hover:border-b hover:text-gray-800">
 							<Link href="/">Home</Link>
 						</li>
-						<li className="ml-10 text-sm uppercase hover:border-b">
+						<li className="ml-10 text-sm uppercase hover:border-b hover:text-gray-800">
 							<Link href="/#about">About</Link>
 						</li>
-						<li className="ml-10 text-sm uppercase hover:border-b">
+						<li className="ml-10 text-sm uppercase hover:border-b hover:text-gray-800">
 							<Link href="/#skills">Skills</Link>
 						</li>
-						<li className="ml-10 text-sm uppercase hover:border-b">
+						<li className="ml-10 text-sm uppercase hover:border-b hover:text-gray-800">
 							<Link href="/#projects">Projects</Link>
 						</li>
-						<li className="ml-10 text-sm uppercase hover:border-b">
+						<li className="ml-10 text-sm uppercase hover:border-b hover:text-gray-800">
 							<Link href="/resume">Resume</Link>
 						</li>
-						<li className="ml-10 text-sm uppercase hover:border-b">
+						<li className="ml-10 text-sm uppercase hover:border-b hover:text-gray-800">
 							<Link href="/#contact">Contact</Link>
 						</li>
+					<Image
+						src={moon}
+						alt="/"
+						width={25}
+						height={25}
+						className="hidden w-5 cursor-pointer md:block"
+					/>
 					</ul>
 					{/* Hamburger Icon */}
 					<div

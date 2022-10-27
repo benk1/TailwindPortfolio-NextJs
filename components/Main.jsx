@@ -1,20 +1,32 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import profilePic from '../public/assets/images/profile_pic.jpg';
 
 const Main = () => {
 	return (
 		<div id="home" className="w-full h-screen text-center">
-			<div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
-				<div>
+			<div className="max-w-[1240px] w-full h-full mx-auto  p-2 flex justify-center items-center">
+				<div className="mt-20">
 					<p className="text-sm tracking-widest text-gray-600 uppercase">
 						lets build something together
 					</p>
 					<h1 className="py-4 text-gray-700">
-						Hi, I'm <span className="text-[#5651e5]">Bern</span>
+						Hi, I'm <span className="text-[#5651e5]">Bernard</span>
 					</h1>
-					<h1 className="text-gray-700 ">A web developer</h1>
+					<div className="flex items-center justify-center w-full h-auto p-4 m-auto duration-300 ease-in shadow-xl shadow-gray-400 rounded-xl hover:scale-105">
+						<Image
+							src={profilePic}
+							className="object-cover w-40 h-40 rounded-full sm:h-full sm:w-36 "
+							width={300}
+							height={300}
+							alt="/"
+						/>
+					</div>
+
+					<h1 className="py-8 text-gray-700">A web developer</h1>
 					<p className="py-4 text-gray-600 max-w-[70%] m-auto">
 						{' '}
 						I’m focused on building responsive front-end and modern web
