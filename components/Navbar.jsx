@@ -5,7 +5,7 @@ import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 // import { useRouter } from 'next/router';
-import NavLogo from '../public/assets/images/logo.png';
+import NavLogo from '../public/assets/images/BERNARDKAKENGI.png';
 import moon from '../public/assets/images/moon.png';
 import { useRouter } from 'next/router';
 
@@ -56,9 +56,9 @@ const Navbar = () => {
 					: 'fixed w-full h-15 z-[100]'
 			}
 		>
-			<div className="flex items-center justify-between w-full h-full px-2 2xl:px-16">
+			<div className="flex items-center justify-between w-full h-full px-2 text-lg 2xl:px-16">
 				<Link href="/">
-					<a>
+					<a className="text-red-800 bg-red-500">
 						<Image
 							src={NavLogo}
 							alt="/"
@@ -69,7 +69,10 @@ const Navbar = () => {
 					</a>
 				</Link>
 				<div>
-					<ul style={{ color: `${linkColor}` }} className="items-center hidden gap-3 md:flex">
+					<ul
+						style={{ color: `${linkColor}` }}
+						className="items-center hidden gap-3 md:flex"
+					>
 						<li className="ml-10 text-sm uppercase hover:border-b hover:text-gray-800">
 							<Link href="/">Home</Link>
 						</li>
@@ -88,13 +91,13 @@ const Navbar = () => {
 						<li className="ml-10 text-sm uppercase hover:border-b hover:text-gray-800">
 							<Link href="/#contact">Contact</Link>
 						</li>
-					<Image
-						src={moon}
-						alt="/"
-						width={25}
-						height={25}
-						className="hidden w-5 cursor-pointer md:block"
-					/>
+						<Image
+							src={moon}
+							alt="/"
+							width={25}
+							height={25}
+							className="hidden w-5 cursor-pointer md:block"
+						/>
 					</ul>
 					{/* Hamburger Icon */}
 					<div

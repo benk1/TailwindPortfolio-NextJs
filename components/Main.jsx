@@ -34,7 +34,7 @@ const Main = () => {
 					</p>
 					<div className="flex items-center justify-between max-w-[330px] m-auto py-4">
 						<a
-							href="https://www.linkedin.com/in/clint-briley-50056920a/"
+							href="https://www.linkedin.com/in/bernard-k-ba2003173/"
 							target="_blank"
 							rel="noreferrer"
 						>
@@ -42,11 +42,7 @@ const Main = () => {
 								<FaLinkedinIn />
 							</div>
 						</a>
-						<a
-							href="https://github.com/fireclint"
-							target="_blank"
-							rel="noreferrer"
-						>
+						<a href="https://github.com/benk1" target="_blank" rel="noreferrer">
 							<div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110">
 								<FaGithub />
 							</div>

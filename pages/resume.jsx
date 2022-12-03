@@ -20,17 +20,13 @@ const resume = () => {
 					<h2 className="text-center">Bernard Kakengi</h2>
 					<div className="flex">
 						<a
-							href="https://www.linkedin.com/in/clint-briley-50056920a/"
+							href="https://www.linkedin.com/in/bernard-k-ba2003173/"
 							target="_blank"
 							rel="noreferrer"
 						>
 							<FaLinkedinIn size={20} style={{ marginRight: '1rem' }} />
 						</a>
-						<a
-							href="https://github.com/fireclint"
-							target="_blank"
-							rel="noreferrer"
-						>
+						<a href="https://github.com/benk1" target="_blank" rel="noreferrer">
 							<FaGithub size={20} style={{ marginRight: '1rem' }} />
 						</a>
 					</div>
@@ -49,10 +45,10 @@ const resume = () => {
 					</div>
 				</div>
 				<p>
-					Analytical, innovative, and motivated web development professional
+					Analytical, innovative,hard working and motivated web development professional
 					with experience in customer service, team leadership, and
 					organizational effectiveness in fast-paced and challenging
-					environments. Adept at developing strategies and driving streamlined
+					environments. Adapt at developing strategies and driving streamlined
 					operations. Diverse analytical skills, team collaboration, and
 					relationship building. Consummate professional, and motivated leader,
 					with solid interpersonal abilities and complex problem-solving skills.
@@ -69,19 +65,25 @@ const resume = () => {
 						<span className="px-2">|</span> HTML
 						<span className="px-2">|</span>CSS
 						<span className="px-2">|</span>Javascript
+						<span className="px-2">|</span> TypeScript
 						<span className="px-2">|</span>React
 						<span className="px-2">|</span>Next JS
-						<span className="px-2">|</span>SQL
+						<span className="px-2">|</span>MongoDB
 						<span className="px-2">|</span>NoSQL
-						<span className="px-2">|</span>Redux
-						<span className="px-2">|</span>Tailwind
+						<span className="px-2">|</span> Git
+						<span className="px-2">|</span>Redux, Redux Toolkit & ContextAPI
+						<span className="px-2">|</span>
+						Tailwind,Material-UI,MaterializeCSS,Flexbox
 						<span className="px-2">|</span> Firebase
+						<span className="px-2">|</span> Regular Expressions
 						<span className="px-2">|</span> RESTAPI
+						
+						<span className="px-2">|</span> Express
+						<span className="px-2">|</span> NodeJs
 					</p>
 					<p className="py-2">
 						<span className="font-bold">Amazon Web Services</span>
-						<span className="px-2">|</span>Amazon Web Services Cloud
-						Practitioner
+						<span className="px-2">|</span>AWS Cognito
 					</p>
 				</div>
 
