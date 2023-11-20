@@ -51,8 +51,8 @@ const About = () => {
 						the process. I was lucky enough to work with another company called
 						Integrify Oy located in the heart of Helsinki capital city Of
 						Finland, where I built most of my projects and stabilize myself as a
-						full web-developer, Currently Iam training and working as a web
-						developer with BearIt Oy based in Helsink, for more about what
+						full web-developer, Currently Iam  working as a web
+						developer with twoday Oy based in Helsink, for more about what
 						projects I have been building,please click the github link below and
 						check it out{' '}
 						<a className="about" href="https://github.com/benk1/">
@@ -66,7 +66,7 @@ const About = () => {
 						working environments. I am team player,highly driven motivated
 						person, hardworking, quick to learn with a positive attitude under
 						pressure. This is one of the reason which makes me who I am today.
-						At the moment I am specializing in front-end development at BearIT
+						At the moment I am specializing in front-end development and learning my path as a full stack developer at twoday
 						oy where I am more working with HTML5, CSS, JAVASCRIPT,
 						ReactJS/Redux,NodeJs,Express, AWS and many more web-technologies. I
 						have good knowledge of using GIT(version control
@@ -84,14 +84,14 @@ const About = () => {
 						with different kinds of people and I am eager to learn new things to
 						challenge myself. I am also interested in learning foreign
 						languages, in this way building my understanding and experience of
-						other cultures and communities. Currently I am excellent in Finnish
+						other cultures and communities. Currently I am good in Finnish
 						language as i have been living in Finland for some time now, apart
 						from that I am fluent in written and spoken English .
 					</p>
 					<p className="py-2 text-gray-600">
 						At my spare time, i like to take care of myself healthywise by doing
 						different kind pf sports activities, one of my favorite sport is
-						playing football as Americans call it soccer:, couple of days in a
+						playing football as Americans call it soccer:), couple of days in a
 						week I like to go to the gym to maintain my fitness. During summer
 						time you will always find me doing some evening jogging and long
 						walks around the parks and enjoying the nature as it is beautiful
@@ -99,7 +99,7 @@ const About = () => {
 					</p>
 					<Link href="/#projects">
 						<p className="py-2 text-gray-600 underline cursor-pointer">
-							Check out some of my latest projects.
+							Check out some former personal projects.
 						</p>
 					</Link>
 				</div>

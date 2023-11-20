@@ -16,7 +16,7 @@ const Projects = () => {
 		<div id="projects" className="w-full">
 			<div className="max-w-[1240px] mx-auto px-2 py-16">
 				<p className="text-xl tracking-widest uppercase text-[#5651e5]">
-					Projects
+					Personal Projects
 				</p>
 				<h2 className="py-4">What I&apos;ve Built</h2>
 				<div className="grid gap-8 md:grid-cols-2">
@@ -63,12 +63,11 @@ const Projects = () => {
 					</a>{' '}
 				</p> */}
 				<div className="py-12 ">
-
-				<Link href="https://github.com/benk1/">
-					<p className="py-2 text-gray-600 underline cursor-pointer">
-						More Projects On My Github Page
-					</p>
-				</Link>
+					<Link href="https://github.com/benk1/">
+						<p className="py-2 text-gray-600 underline cursor-pointer">
+							More Personal Projects On My Github Page
+						</p>
+					</Link>
 				</div>
 			</div>
 		</div>

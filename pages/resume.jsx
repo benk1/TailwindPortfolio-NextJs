@@ -6,10 +6,10 @@ const resume = () => {
 	return (
 		<>
 			<Head>
-				<title>Clint | Resume</title>
+				<title>Ben | Resume</title>
 				<meta
 					name="description"
-					content="I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences."
+					content="I’m a front-end web developer specializing in Web development."
 				/>
 				<link rel="icon" href="/fav.png" />
 			</Head>
@@ -34,19 +34,31 @@ const resume = () => {
 				<div className="py-4 text-xl font-bold tracking-wider text-center uppercase">
 					<div className="hidden sm:block">
 						<p>
-							Proven Leadership <span className="px-1">|</span> Web Development{' '}
-							<span className="px-1">|</span> Complex Problem Solving
+							Leadership skills <span className="px-1">|</span> Web Development{' '}
+							<span className="px-1">|</span> Problem Solving
 						</p>
 					</div>
 					<div className="block sm:hidden">
 						<p>Proven Leadership</p>
 						<p className="py-2">Web Development</p>
-						<p>Complex Problem Solving</p>
+						<p> Problem Solving</p>
 					</div>
 				</div>
 				<p>
-					Analytical, innovative,hard working and motivated web development professional
-					with experience in customer service, team leadership, and
+					I am a Software Engineer currently specializing in Web development.
+					Momentarily my strength is front-end development with React and Redux
+					and other front-end technologies.I have participated in multiple
+					projects during my past experience where teamwork and individuality
+					were both crucial.I am hard working,quick to learn with a positive
+					attitude under pressure. I have worked with different tools from my
+					past experience and been able to adopt quickly. I have developed good
+					communication skills and adaptability to different working
+					environments. .
+				</p>
+				<br />
+				{/* <p>
+					Analytical, innovative,hard working and motivated web development
+					professional with experience in customer service, team leadership, and
 					organizational effectiveness in fast-paced and challenging
 					environments. Adapt at developing strategies and driving streamlined
 					operations. Diverse analytical skills, team collaboration, and
@@ -54,7 +66,7 @@ const resume = () => {
 					with solid interpersonal abilities and complex problem-solving skills.
 					Effective and proven track record of critical thinking, idea
 					generation, and optimizing efficiencies.
-				</p>
+				</p> */}
 
 				{/* Skills */}
 				<div className="py-4 text-center">
@@ -77,7 +89,6 @@ const resume = () => {
 						<span className="px-2">|</span> Firebase
 						<span className="px-2">|</span> Regular Expressions
 						<span className="px-2">|</span> RESTAPI
-						
 						<span className="px-2">|</span> Express
 						<span className="px-2">|</span> NodeJs
 					</p>
@@ -90,37 +101,82 @@ const resume = () => {
 				<h5 className="text-center underline text-[18px] py-4">
 					Professional Experience
 				</h5>
-				{/* Experience */}
+
 				<div className="py-6">
 					<p className="italic">
-						<span className="italic font-bold">BEARIT OY</span>
+						<span className="italic font-bold">twoday Oy</span>
 						<span className="px-2">|</span>Finland, Helsinki
 					</p>
-					<p className="py-1 italic">
-						Front End Web Developer (2022 - Current)
-					</p>
+					<p className="py-1 italic">Web Developer (2023 - Current)</p>
 					<ul className="py-1 leading-relaxed list-disc list-outside px-7">
-						<li>
-							Ensured comprehensive mobile responsive UI layouts with
-							understanding of HTML, CSS, and JavaScript.
-						</li>
-						<li>
-							Troubleshoot issues and concerns, configure operation and analytic
-							plugins, and design changes as needed.
-						</li>
 						<li>
 							Worked directly with a diverse client base to understand and
 							implement multiple technologies and programs.
 						</li>
 						<li>
-							Platform migration managing DNS servers as well as MX records and
-							ensuring a smooth migration process.
+							Working with multiple clients to meet their requirements under
+							given deadlines Valmet oy - worked on paper Machine reference
+							Database project(PM-ref DB)
 						</li>
 					</ul>
 				</div>
 
-				{/* Personal Experience */}
 				<div className="py-6">
+					<p className="italic">
+						<span className="italic font-bold">BEARIT Oy</span>
+						<span className="px-2">|</span>Finland, Helsinki
+					</p>
+					<p className="py-1 italic">Front End Web Developer (2022 )</p>
+					<ul className="py-1 leading-relaxed list-disc list-outside px-7">
+						<li>
+							Implement comprehensive mobile responsive UI layouts with
+							understanding of front-end technologies e.g HTML, CSS, and
+							JavaScript, React - Coach App
+						</li>
+						<li>
+							Working with multiple clients to meet their requirements under
+							given deadlines
+						</li>
+						<li>
+							Worked directly with a diverse client base to understand and
+							implement multiple technologies and programs.(Minduu(AtCare Oy))
+						</li>
+						<li>Internal projects within BearIt (Oskari Project)</li>
+
+						{/* <div className="py-6">
+								<p className="italic">
+									<span className="italic font-bold">BEARIT OY</span>
+									<span className="px-2">|</span>Finland, Helsinki
+								</p>
+								<p className="py-1 italic">
+									Front End Web Developer (2022 - Current)
+								</p>
+								<ul className="py-1 leading-relaxed list-disc list-outside px-7">
+									<li>
+										Implement comprehensive mobile responsive UI layouts with
+										understanding of front-end technologies e.g HTML, CSS, and
+										JavaScript.
+									</li>
+									<li>
+										Working with multiple clients to meet their requirements
+										under given deadlines
+									</li>
+									<li>
+										Worked directly with a diverse client base to understand and
+										implement multiple technologies and programs.(Minduu(AtCare
+										Oy) - Implement from scratch their front-end website for
+										searching therapists across Finland)
+									</li>
+									<li>Internal projects within BearIt (Oskari Project)</li>
+								</ul>
+							</div> */}
+						{/* </li> */}
+						{/* <li>Internal projects within BearIt (Oskari Project)</li> */}
+					</ul>
+				</div>
+
+				{/* Personal Experience */}
+				{/* <div className="py-6">
 					<p className="italic">
 						<span className="italic font-bold">
 							Teaching & Mentoring Web Development
@@ -142,15 +198,15 @@ const resume = () => {
 							concepts and code reviews.
 						</li>
 					</ul>
-				</div>
+				</div> */}
 
 				{/*  */}
-				<h5 className="text-center underline text-[18px] py-4">
+				{/* <h5 className="text-center underline text-[18px] py-4">
 					Other Professional Experience
-				</h5>
+				</h5> */}
 
 				{/* Experience */}
-				<div className="py-6">
+				{/* <div className="py-6">
 					<p className="italic">
 						<span className="font-bold">CITY OF SHERMAN, TX</span>
 						<span className="px-2">|</span>Sherman, TX
@@ -184,6 +240,91 @@ const resume = () => {
 							Support, among others.
 						</li>
 					</ul>
+				</div> */}
+
+				<div className="py-6">
+					<p className="italic">
+						<span className="italic font-bold">Integrify Oy</span>
+						<span className="px-2">|</span>Finland, Helsinki
+					</p>
+					<p className="py-1 italic">
+						Web Developer (August 2018 - August 2019)
+					</p>
+					<ul className="py-1 leading-relaxed list-disc list-outside px-7">
+						<li>
+							Member of Integrify, state-of-the-art software developer program,
+							learning and working on modern software development.
+						</li>
+						<li>
+							As a junior developer, my focus is JavaScript, React/Redux, Node
+							and Express.
+						</li>
+						<li>
+							Supervision led by senior software developers every day, resulting
+							in up to 1000 hours of coding.
+						</li>
+					</ul>
+				</div>
+
+				<div className="py-6">
+					<p className="italic">
+						<span className="italic font-bold">Sibesonke Ltd</span>
+						<span className="px-2">|</span>Finland, Helsinki
+					</p>
+					<p className="py-1 italic">
+						Junior Developer (August June 2014 - August 2016 )
+					</p>
+					<ul className="py-1 leading-relaxed list-disc list-outside px-7">
+						<li>
+							Designed the back-end development tracing tool using Ruby and Ruby
+							on Rails.
+						</li>
+						<li>
+							Dealing with Ruby on Rails active records to manipulate the
+							database.
+						</li>
+						<li>Database manipulation using MySQL.</li>
+						<li>Excellent knowledge of Using Git (Version Control System).</li>
+						<li>Excellent with Regular expressions.</li>
+
+						<li>
+							Good working knowledge of Linux (Ubuntu), MS Access, Excel and
+							Word/LibreOffice and development of web pages and design.
+						</li>
+					</ul>
+
+					<div className="py-6">
+						<p className="italic">
+							<span className="italic font-bold">
+								SASK(Suomen Ammattiliitojen Solidarikeskus)
+							</span>
+							<span className="px-2">|</span>Finland, Helsinki
+						</p>
+						<p className="py-1 italic">
+							General Assistant (June 2011 - June 2013))
+						</p>
+						<ul className="py-1 leading-relaxed list-disc list-outside px-7">
+							<li>
+								Working as an IT assistant in different events to recruit new
+								members in the union.
+							</li>
+						</ul>
+					</div>
+
+					<div className="py-6">
+						<p className="italic">
+							<span className="italic font-bold">Languages</span>
+							{/* <span className="px-2">|</span>Finland, Helsinki */}
+						</p>
+						{/* <p className="py-1 italic">
+							General Assistant (June 2011 - June 2013))
+						</p> */}
+						<ul className="py-1 leading-relaxed list-disc list-outside px-7">
+							<li>English - Fluent</li>
+							<li>Finnish - Advanced</li>
+							<li>Swahili - Native</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</>

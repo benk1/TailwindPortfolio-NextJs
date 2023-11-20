@@ -5,7 +5,9 @@ import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 // import { useRouter } from 'next/router';
-import NavLogo from '../public/assets/images/BERNARDKAKENGI.png';
+// import NavLogo from '../public/assets/images/BERNARDKAKENGI.png';
+import NavLogo from '../public/assets/images/bernardkakengi.png';
+
 import moon from '../public/assets/images/moon.png';
 import { useRouter } from 'next/router';
 
@@ -15,6 +17,8 @@ const Navbar = () => {
 	const [navBg, setNavBg] = useState('#ecf0f3');
 	const [linkColor, setLinkColor] = useState('#1f2937');
 	const [position, setPosition] = useState('fixed');
+	const [darkToggle, setDarkToggle] = React.useState(false);
+
 	const router = useRouter();
 
 	useEffect(() => {
@@ -52,18 +56,22 @@ const Navbar = () => {
 			style={{ backgroundColor: `${navBg}` }}
 			className={
 				shadow
-					? 'fixed w-full h-15 shadow-xl z-[100] ease-in-out duration-300'
-					: 'fixed w-full h-15 z-[100]'
+					? `fixed w-full h-15 shadow-xl z-[100] ease-in-out duration-300 ${
+							darkToggle && 'dark:bg-slate-900'
+					  } `
+					: `fixed w-full h-15 z-[100] dark:bg-slate-900 ${
+							darkToggle && 'dark:bg-slate-900'
+					  }`
 			}
 		>
 			<div className="flex items-center justify-between w-full h-full px-2 text-lg 2xl:px-16">
 				<Link href="/">
-					<a className="text-red-800 bg-red-500">
+					<a>
 						<Image
 							src={NavLogo}
 							alt="/"
-							width="125"
-							height="50"
+							width="115"
+							height="115"
 							className="cursor-pointer"
 						/>
 					</a>
@@ -92,6 +100,7 @@ const Navbar = () => {
 							<Link href="/#contact">Contact</Link>
 						</li>
 						<Image
+							onClick={() => setDarkToggle(!darkToggle)}
 							src={moon}
 							alt="/"
 							width={25}

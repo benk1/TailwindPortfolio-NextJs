@@ -28,6 +28,7 @@ const Contact = () => {
 							</div>
 							<div>
 								<h2 className="py-2">Bernard Kakengi</h2>
+								<h3>Kaustisenpolku 3A, 00420 Helsinki</h3>
 								<p>Front-End Developer</p>
 								<p className="py-4">
 									I am available as a consultant or full-time positions. Contact
