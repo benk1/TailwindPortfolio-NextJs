@@ -45,7 +45,9 @@ const presentation = () => {
 						target="_blank"
 						rel="noreferrer"
 					>
-						<button className="px-8 py-2 mt-4">Demo</button>
+						<button disabled className="px-8 py-2 mt-4">
+							Demo Temporarily Unavailable
+						</button>
 					</a>
 				</div>
 				<div className="col-span-4 py-4 shadow-xl md:col-span-1 shadow-gray-400 rounded-xl">

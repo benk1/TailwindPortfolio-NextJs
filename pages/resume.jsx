@@ -34,8 +34,8 @@ const resume = () => {
 				<div className="py-4 text-xl font-bold tracking-wider text-center uppercase">
 					<div className="hidden sm:block">
 						<p>
-							Leadership skills <span className="px-1">|</span> Web Development{' '}
-							<span className="px-1">|</span> Problem Solving
+							Web Development <span className="px-1">|</span> Problem Solving{' '}
+							<span className="px-1">|</span>Leadership skills
 						</p>
 					</div>
 					<div className="block sm:hidden">
@@ -115,8 +115,9 @@ const resume = () => {
 						</li>
 						<li>
 							Working with multiple clients to meet their requirements under
-							given deadlines Valmet oy - worked on paper Machine reference
-							Database project(PM-ref DB)
+							given deadlines.
+							<b>Valmet oy</b> - worked on paper Machine reference Database
+							project(PM-ref DB)
 						</li>
 					</ul>
 				</div>
@@ -131,7 +132,7 @@ const resume = () => {
 						<li>
 							Implement comprehensive mobile responsive UI layouts with
 							understanding of front-end technologies e.g HTML, CSS, and
-							JavaScript, React - Coach App
+							JavaScript, React - <b>Coach App</b>
 						</li>
 						<li>
 							Working with multiple clients to meet their requirements under
@@ -139,9 +140,12 @@ const resume = () => {
 						</li>
 						<li>
 							Worked directly with a diverse client base to understand and
-							implement multiple technologies and programs.(Minduu(AtCare Oy))
+							implement multiple technologies and programs.
+							<b>Minduu(AtCare Oy)</b>
 						</li>
-						<li>Internal projects within BearIt (Oskari Project)</li>
+						<li>
+							Internal projects within BearIt. <b>Oskari Project</b>
+						</li>
 					</ul>
 				</div>
 
@@ -230,13 +234,14 @@ const resume = () => {
 					<div className="py-6">
 						<p className="italic">
 							<span className="italic font-bold">Education</span>
-							
 						</p>
 
 						<ul className="py-1 leading-relaxed list-disc list-outside px-7">
-							<li>B.Engineering. Information Technology - Metropolia AMK, 2006 -2012</li>
+							<li>
+								B.Engineering. Information Technology - Metropolia AMK, 2006
+								-2012
+							</li>
 							<li>Makongo High School - Dar es Salaam,Tanzana, 1998 - 2000</li>
-							
 						</ul>
 					</div>
 				</div>
