@@ -8,6 +8,49 @@ import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 import ContactImg from '../public/assets/images/contact.jpg';
 
 const Contact = () => {
+	const [formData, setFormData] = useState({
+		name: '',
+		phone: '',
+		email: '',
+		subject: '',
+		message: '',
+	});
+
+	const [isSubmitted, setIsSubmitted] = useState(false);
+
+	const handleSubmit = async (event) => {
+		event.preventDefault();
+
+		// If submission is successful:
+		setIsSubmitted(true);
+
+		// Post data to Getform endpoint
+		await fetch('https://getform.io/f/d98e5e3c-7587-44d2-b918-6d202e44ff0a', {
+			method: 'POST',
+			body: new URLSearchParams(formData),
+			headers: {
+				'Content-Type': 'application/x-www-form-urlencoded',
+			},
+		});
+		// Reset form data
+		setFormData({
+			name: '',
+			phone: '',
+			email: '',
+			subject: '',
+			message: '',
+		});
+
+		// Reset the form after 5 seconds
+		setTimeout(() => {
+			setIsSubmitted(false);
+		}, 5000);
+	};
+
+	const handleChange = (event) => {
+		setFormData({ ...formData, [event.target.name]: event.target.value });
+	};
+
 	return (
 		<div id="contact" className="w-full lg:h-screen">
 			<div className="max-w-[1240px] m-auto px-2 py-16 w-full ">
@@ -75,59 +118,76 @@ const Contact = () => {
 					{/* right */}
 					<div className="w-full h-auto col-span-3 shadow-xl shadow-gray-400 rounded-xl lg:p-4">
 						<div className="p-4">
-							<form
-								action="https://getform.io/f/d98e5e3c-7587-44d2-b918-6d202e44ff0a"
-								method="POST"
-								encType="multipart/form-data"
-							>
-								<div className="grid w-full gap-4 py-2 md:grid-cols-2">
-									<div className="flex flex-col">
-										<label className="py-2 text-sm uppercase">Name</label>
+							{isSubmitted ? (
+								<div className="success-message">
+									Your message has been sent successfully!
+								</div>
+							) : (
+								<form
+									// action="https://getform.io/f/d98e5e3c-7587-44d2-b918-6d202e44ff0a"
+									// method="POST"
+									// encType="multipart/form-data"
+									onSubmit={handleSubmit}
+								>
+									<div className="grid w-full gap-4 py-2 md:grid-cols-2">
+										<div className="flex flex-col">
+											<label className="py-2 text-sm uppercase">Name</label>
+											<input
+												className="flex p-3 border-2 border-gray-300 rounded-lg"
+												type="text"
+												name="name"
+												value={formData.name}
+												onChange={handleChange}
+											/>
+										</div>
+										<div className="flex flex-col">
+											<label className="py-2 text-sm uppercase">
+												Phone Number
+											</label>
+											<input
+												className="flex p-3 border-2 border-gray-300 rounded-lg"
+												type="number"
+												name="phone"
+												value={formData.phone}
+												onChange={handleChange}
+											/>
+										</div>
+									</div>
+									<div className="flex flex-col py-2">
+										<label className="py-2 text-sm uppercase">Email</label>
+										<input
+											className="flex p-3 border-2 border-gray-300 rounded-lg"
+											type="email"
+											name="email"
+											value={formData.email}
+											onChange={handleChange}
+										/>
+									</div>
+									<div className="flex flex-col py-2">
+										<label className="py-2 text-sm uppercase">Subject</label>
 										<input
 											className="flex p-3 border-2 border-gray-300 rounded-lg"
 											type="text"
-											name="name"
+											name="subject"
+											value={formData.subject}
+											onChange={handleChange}
 										/>
 									</div>
-									<div className="flex flex-col">
-										<label className="py-2 text-sm uppercase">
-											Phone Number
-										</label>
-										<input
-											className="flex p-3 border-2 border-gray-300 rounded-lg"
-											type="number"
-											name="phone"
-										/>
+									<div className="flex flex-col py-2">
+										<label className="py-2 text-sm uppercase">Message</label>
+										<textarea
+											className="p-3 border-2 border-gray-300 rounded-lg"
+											rows="10"
+											name="message"
+											value={formData.message}
+											onChange={handleChange}
+										></textarea>
 									</div>
-								</div>
-								<div className="flex flex-col py-2">
-									<label className="py-2 text-sm uppercase">Email</label>
-									<input
-										className="flex p-3 border-2 border-gray-300 rounded-lg"
-										type="email"
-										name="email"
-									/>
-								</div>
-								<div className="flex flex-col py-2">
-									<label className="py-2 text-sm uppercase">Subject</label>
-									<input
-										className="flex p-3 border-2 border-gray-300 rounded-lg"
-										type="text"
-										name="subject"
-									/>
-								</div>
-								<div className="flex flex-col py-2">
-									<label className="py-2 text-sm uppercase">Message</label>
-									<textarea
-										className="p-3 border-2 border-gray-300 rounded-lg"
-										rows="10"
-										name="message"
-									></textarea>
-								</div>
-								<button className="w-full p-4 mt-4 text-gray-100">
-									Send Message
-								</button>
-							</form>
+									<button className="w-full p-4 mt-4 text-gray-100">
+										Send Message
+									</button>
+								</form>
+							)}
 						</div>
 					</div>
 				</div>

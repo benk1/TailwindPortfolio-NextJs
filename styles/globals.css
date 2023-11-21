@@ -11,6 +11,17 @@ html {
 .about {
     text-decoration: underline;
 }
+.success-message {
+    text-align: center;
+    color: green;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ebf8f2; /* Light green background */
+    border: 1px solid #d4edda; /* Slightly darker green border */
+    border-radius: 5px;
+}
+
 
 @layer base {
 	body {
