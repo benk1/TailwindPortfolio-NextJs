@@ -142,105 +142,8 @@ const resume = () => {
 							implement multiple technologies and programs.(Minduu(AtCare Oy))
 						</li>
 						<li>Internal projects within BearIt (Oskari Project)</li>
-
-						{/* <div className="py-6">
-								<p className="italic">
-									<span className="italic font-bold">BEARIT OY</span>
-									<span className="px-2">|</span>Finland, Helsinki
-								</p>
-								<p className="py-1 italic">
-									Front End Web Developer (2022 - Current)
-								</p>
-								<ul className="py-1 leading-relaxed list-disc list-outside px-7">
-									<li>
-										Implement comprehensive mobile responsive UI layouts with
-										understanding of front-end technologies e.g HTML, CSS, and
-										JavaScript.
-									</li>
-									<li>
-										Working with multiple clients to meet their requirements
-										under given deadlines
-									</li>
-									<li>
-										Worked directly with a diverse client base to understand and
-										implement multiple technologies and programs.(Minduu(AtCare
-										Oy) - Implement from scratch their front-end website for
-										searching therapists across Finland)
-									</li>
-									<li>Internal projects within BearIt (Oskari Project)</li>
-								</ul>
-							</div> */}
-						{/* </li> */}
-						{/* <li>Internal projects within BearIt (Oskari Project)</li> */}
 					</ul>
 				</div>
-
-				{/* Personal Experience */}
-				{/* <div className="py-6">
-					<p className="italic">
-						<span className="italic font-bold">
-							Teaching & Mentoring Web Development
-						</span>
-						<span className="px-2">|</span>Dallas, TX
-					</p>
-					<p className="py-1 italic">
-						Code Commerce - Youtube Channel (2021 - Current)
-					</p>
-					<ul className="py-1 leading-relaxed list-disc list-outside px-7">
-						<li>
-							In 2021 I started “Code Commerce”, a YouTube channel focused on
-							sharing what I’m learning in web development, specifically
-							front-end development.
-						</li>
-						<li>
-							Private 1 on 1 Zoom coaching calls related to web development.
-							More specifically debugging, teaching basic web development
-							concepts and code reviews.
-						</li>
-					</ul>
-				</div> */}
-
-				{/*  */}
-				{/* <h5 className="text-center underline text-[18px] py-4">
-					Other Professional Experience
-				</h5> */}
-
-				{/* Experience */}
-				{/* <div className="py-6">
-					<p className="italic">
-						<span className="font-bold">CITY OF SHERMAN, TX</span>
-						<span className="px-2">|</span>Sherman, TX
-					</p>
-					<p className="py-1 italic">Paramedic / Firefighter (2010 – 2019)</p>
-					<ul className="py-1 leading-relaxed list-disc list-outside px-7">
-						<li>
-							Ensured proper implementation of firefighting techniques and
-							practices including controlling and extinguishing fires, operating
-							hose lines, and fire ground operations, ventilation, and search
-							and rescue.
-						</li>
-						<li>
-							Oversaw comprehensive understanding, operation, and maintenance of
-							fire engines, ladder trucks, technical rescue apparatus, and
-							response trailers.
-						</li>
-						<li>
-							Performed ALS techniques as needed within emergency situations
-							including the use of an esophageal or dual lumen airway device and
-							oral intubation using laryngoscopy.
-						</li>
-						<li>
-							Collaborated with a talented and high performing team of
-							firefighters in high pressure and stressful situations as needed.
-						</li>
-						<li>
-							Utilized proven and demonstrated knowledge of multiple
-							certifications including Pediatric Advanced Life Support,
-							Prehospital Trauma Life Support, and Advanced Cardiac Life
-							Support, among others.
-						</li>
-					</ul>
-				</div> */}
 
 				<div className="py-6">
 					<p className="italic">
@@ -316,13 +219,24 @@ const resume = () => {
 							<span className="italic font-bold">Languages</span>
 							{/* <span className="px-2">|</span>Finland, Helsinki */}
 						</p>
-						{/* <p className="py-1 italic">
-							General Assistant (June 2011 - June 2013))
-						</p> */}
+
 						<ul className="py-1 leading-relaxed list-disc list-outside px-7">
 							<li>English - Fluent</li>
 							<li>Finnish - Advanced</li>
 							<li>Swahili - Native</li>
+						</ul>
+					</div>
+
+					<div className="py-6">
+						<p className="italic">
+							<span className="italic font-bold">Education</span>
+							
+						</p>
+
+						<ul className="py-1 leading-relaxed list-disc list-outside px-7">
+							<li>B.Engineering. Information Technology - Metropolia AMK, 2006 -2012</li>
+							<li>Makongo High School - Dar es Salaam,Tanzana, 1998 - 2000</li>
+							
 						</ul>
 					</div>
 				</div>
