@@ -41,24 +41,22 @@ const About = () => {
 						I am obsessed with making things happen, in matter of fact I am more
 						interested on making things better. In my Software development
 						career, I started the development based on programming with Ruby
-						Language and developed further with Ruby on Rails framework, now
-						looking for a role as a front-end developer. I participated in
-						different projects as a trainee at Sibesonke Ltd based in Espoo city
-						in Finland, where I trained and work as a software developer using
-						Ruby and Ruby on Rails, which has really sparked me into web
-						development. I had a great time working on different software
-						development methodologies including functional and unit testing on
-						the process. I was lucky enough to work with another company called
-						Integrify Oy located in the heart of Helsinki capital city Of
-						Finland, where I built most of my projects and stabilize myself as a
-						full web-developer, Currently Iam  working as a web
-						developer with twoday Oy based in Helsink, for more about what
-						projects I have been building,please click the github link below and
-						check it out{' '}
-						<a className="about" href="https://github.com/benk1/">
-							here
+						Language and developed further with Ruby on Rails framework, I
+						participated in different projects as a trainee at Sibesonke Ltd
+						based in Espoo city in Finland, where I trained and work as a
+						software developer using Ruby and Ruby on Rails, which has really
+						sparked me into web development. I had a great time working on
+						different software development methodologies including functional
+						and unit testing on the process. I was lucky enough to work with
+						another company called Integrify Oy located in the heart of Helsinki
+						capital city Of Finland, where I built most of my projects and
+						stabilize myself as a full web-developer, Currently Iam working as a
+						web developer with twoday Oy based in Helsink, for more about what
+						projects I have been building for personal and hobbies,please click
+						the github link below and check it out{' '}
+						<a className="text-gray-600 about" href="https://github.com/benk1/">
+							click here
 						</a>{' '}
-						.
 					</p>
 
 					<p className="py-2 text-gray-600">
@@ -66,8 +64,9 @@ const About = () => {
 						working environments. I am team player,highly driven motivated
 						person, hardworking, quick to learn with a positive attitude under
 						pressure. This is one of the reason which makes me who I am today.
-						At the moment I am specializing in front-end development and learning my path as a full stack developer at twoday
-						oy where I am more working with HTML5, CSS, JAVASCRIPT,
+						At the moment I am specializing in front-end development and
+						learning my path as a full stack developer at twoday oy where I am
+						more working with HTML5, CSS, JAVASCRIPT,
 						ReactJS/Redux,NodeJs,Express, AWS and many more web-technologies. I
 						have good knowledge of using GIT(version control
 						system),Mysql,MongoDB databases, good with Regular expressions,
