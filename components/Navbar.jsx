@@ -104,13 +104,15 @@ const Navbar = () => {
 						<li className="ml-10 text-sm uppercase hover:border-b hover:text-gray-800">
 							<Link href="/#contact">Contact</Link>
 						</li>
-						<input
-							onChange={handleDarkModeToggle}
-							type="checkbox"
-							value={darkToggle}
-							className="toggle"
-							checked={darkToggle}
-						/>
+						<li className="ml-10 text-sm">
+							<input
+								onChange={handleDarkModeToggle}
+								type="checkbox"
+								value={darkToggle}
+								className="toggle"
+								checked={darkToggle}
+							/>
+						</li>
 						{/* <Image
 							onClick={() => setDarkToggle(!darkToggle)}
 							src={moon}
