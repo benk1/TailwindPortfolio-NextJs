@@ -21,6 +21,10 @@ const Navbar = () => {
 
 	const router = useRouter();
 
+	const handleDarkModeToggle = () => {
+		setDarkToggle(!darkToggle);
+	};
+
 	useEffect(() => {
 		if (
 			router.asPath === '/property' ||
@@ -41,6 +45,7 @@ const Navbar = () => {
 	};
 
 	useEffect(() => {
+		document.body.setAttribute('data-theme', darkToggle ? 'dark' : 'light');
 		const handleShadow = () => {
 			if (window.scrollY >= 90) {
 				setShadow(true);
@@ -49,7 +54,7 @@ const Navbar = () => {
 			}
 		};
 		window.addEventListener('scroll', handleShadow);
-	}, []);
+	}, [darkToggle]);
 
 	return (
 		<div
@@ -99,14 +104,21 @@ const Navbar = () => {
 						<li className="ml-10 text-sm uppercase hover:border-b hover:text-gray-800">
 							<Link href="/#contact">Contact</Link>
 						</li>
-						<Image
+						<input
+							onChange={handleDarkModeToggle}
+							type="checkbox"
+							value={darkToggle}
+							className="toggle"
+							checked={darkToggle}
+						/>
+						{/* <Image
 							onClick={() => setDarkToggle(!darkToggle)}
 							src={moon}
 							alt="/"
 							width={25}
 							height={25}
 							className="hidden w-5 cursor-pointer md:block"
-						/>
+						/> */}
 					</ul>
 					{/* Hamburger Icon */}
 					<div
