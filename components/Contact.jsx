@@ -82,7 +82,7 @@ const Contact = () => {
 								<p className="pt-8 uppercase">Connect With Me</p>
 								<div className="flex items-center justify-between py-4">
 									<a
-										href="https://www.linkedin.com/in/clint-briley-50056920a/"
+										href="https://www.linkedin.com/in/bernard-k-ba2003173/"
 										target="_blank"
 										rel="noreferrer"
 									>
@@ -91,7 +91,7 @@ const Contact = () => {
 										</div>
 									</a>
 									<a
-										href="https://github.com/fireclint"
+										href="https://github.com/benk1"
 										target="_blank"
 										rel="noreferrer"
 									>
