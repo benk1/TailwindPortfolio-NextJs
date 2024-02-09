@@ -45,28 +45,27 @@ const resume = () => {
 					</div>
 				</div>
 				<p>
-					I am a Software Engineer currently specializing in Web development.
-					Momentarily my strength is front-end development with React and Redux
-					and other front-end technologies.I have participated in multiple
-					projects during my past experience where teamwork and individuality
-					were both crucial.I am hard working,quick to learn with a positive
-					attitude under pressure. I have worked with different tools from my
-					past experience and been able to adopt quickly. I have developed good
-					communication skills and adaptability to different working
-					environments. .
+					I am a Passionate Software Engineer specializing in Web development.
+					My expertise lies in front-end development, particularly with
+					React/NextJs and Redux and other front-end technologies, where I excel
+					in creating dynamic and intuitive interfaces. I have contributed to
+					numerous projects where my front-end skills were instrumental in
+					delivering exceptional user experiences.From implementing responsive
+					layouts to implementing complex state management. I thrive in tackling
+					challenging tasks head-on."I am hard working,quick to learn with a
+					positive attitude under pressure. I have worked with different tools
+					from my past experience and been able to adopt quickly. In addition to
+					my technical prowess, I pride myself on my strong communication skills
+					and ability to collaborate effectively with cross-functional teams.
+					Whether working independently or in a collaborative setting, I
+					approach every challenge with a positive attitude and a
+					solution-oriented mindset."I have developed good communication skills
+					and adaptability to different working environments. I'm passionate
+					about leveraging technology to create meaningful solutions, and I'm
+					always eager to collaborate on exciting projects. Let's connect and
+					bring your ideas to life!"
 				</p>
 				<br />
-				{/* <p>
-					Analytical, innovative,hard working and motivated web development
-					professional with experience in customer service, team leadership, and
-					organizational effectiveness in fast-paced and challenging
-					environments. Adapt at developing strategies and driving streamlined
-					operations. Diverse analytical skills, team collaboration, and
-					relationship building. Consummate professional, and motivated leader,
-					with solid interpersonal abilities and complex problem-solving skills.
-					Effective and proven track record of critical thinking, idea
-					generation, and optimizing efficiencies.
-				</p> */}
 
 				{/* Skills */}
 				<div className="py-4 text-center">
@@ -79,7 +78,8 @@ const resume = () => {
 						<span className="px-2">|</span>Javascript
 						<span className="px-2">|</span> TypeScript
 						<span className="px-2">|</span>React
-						<span className="px-2">|</span>Next JS
+						<span className="px-2">|</span>TanStack Query
+						<span className="px-2">|</span>NextJS
 						<span className="px-2">|</span>MongoDB
 						<span className="px-2">|</span>NoSQL
 						<span className="px-2">|</span> Git
@@ -115,9 +115,10 @@ const resume = () => {
 						</li>
 						<li>
 							Working with multiple clients to meet their requirements under
-							given deadlines.
+							given deadlines <br />
 							<b>Valmet oy</b> - worked on paper Machine reference Database
-							project(PM-ref DB)
+							project(PM-ref DB){''} <br />
+							<b>AI Works unit</b> - Worked on twoday's Artificial Intelligent
 						</li>
 					</ul>
 				</div>
