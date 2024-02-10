@@ -117,8 +117,18 @@ const resume = () => {
 							Working with multiple clients to meet their requirements under
 							given deadlines <br />
 							<b>Valmet oy</b> - worked on paper Machine reference Database
-							project(PM-ref DB){''} <br />
-							<b>AI Works unit</b> - Worked on twoday's Artificial Intelligent
+							project(PM-ref DB){''}
+							The PM Reference DB project aimed to develop a tool for
+							referencing and organizing time series data of paper machines. It
+							facilitates the creation of hierarchical structures that depict
+							the operation and logical layout of paper machines, linking
+							measurement parameters to specific components." <br />
+							<b>twoday AI Works unit</b> - Worked on twoday's Artificial
+							Intelligent as a front-end developer. developed user interfaces
+							that serves as your company's personal superintelligence by
+							leveraging the power of the GPT language model, it enhances data
+							processing efficiency, accelerates business operations, and
+							automates both internal and external service processes.
 						</li>
 					</ul>
 				</div>
@@ -131,22 +141,32 @@ const resume = () => {
 					<p className="py-1 italic">Front End Web Developer (2022 )</p>
 					<ul className="py-1 leading-relaxed list-disc list-outside px-7">
 						<li>
-							Implement comprehensive mobile responsive UI layouts with
-							understanding of front-end technologies e.g HTML, CSS, and
-							JavaScript, React - <b>Coach App</b>
-						</li>
-						<li>
 							Working with multiple clients to meet their requirements under
 							given deadlines
 						</li>
 						<li>
-							Worked directly with a diverse client base to understand and
-							implement multiple technologies and programs.
-							<b>Minduu(AtCare Oy)</b>
+							Implement comprehensive mobile responsive UI layouts with
+							understanding of front-end technologies e.g HTML, CSS,Material UI,
+							JavaScript and React <br />
+							<b>Coach App -</b> I was involved in developing an application
+							where coaches can monitor their players' results, set goals, and
+							assess capabilities based on game and training outcomes. An
+							intuitive user interface was created for the application, along
+							with a cloud-based backend. In my role, I also consulted with
+							professional coaches to map out their needs.
 						</li>
-						<li>
-							Internal projects within BearIt. <b>Oskari Project</b>
-						</li>
+						<b>Minduu(AtCare Oy)</b> - Development of the Minduu.fi
+						psychotherapy service,I was involved in creating a therapy search
+						service from scratch. For this search service, several different
+						search algorithms were developed to enhance the user experience by
+						speeding up searches and delivering more accurate results. The
+						service was created in close collaboration with Minduu's own
+						developers. The website's implementation focused on responsive
+						design principles and accessibility.
+						<br />
+						<b>Oskari Project</b> - Patly participated in bearIt internal
+						project for developing a survey system for industry
+						customers(Oscari)
 					</ul>
 				</div>
 
@@ -164,7 +184,7 @@ const resume = () => {
 							learning and working on modern software development.
 						</li>
 						<li>
-							As a junior developer, my focus is JavaScript, React/Redux, Node
+							As a junior developer, my focus was JavaScript, React/Redux, Node
 							and Express.
 						</li>
 						<li>

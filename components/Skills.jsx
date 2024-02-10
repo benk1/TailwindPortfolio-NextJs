@@ -13,6 +13,8 @@ import AWS from '../public/assets/images/aws.png';
 import mongo from '../public/assets/images/mongoDB.png';
 import netlify from '../public/assets/images/netlify-logo.png';
 import redux from '../public/assets/images/redux.png';
+import tanStack from '../public/assets/images/tanStack.png';
+
 import bitbucket from '../public/assets/images/bitbucket.png';
 //Note in first din lg:h-screen or md:h-screen
 const Skills = () => {
@@ -156,6 +158,17 @@ const Skills = () => {
 							</div>
 							<div className="flex flex-col items-center justify-center">
 								<h3>Redux</h3>
+							</div>
+						</div>
+					</div>
+
+					<div className="p-6 duration-300 ease-in shadow-xl rounded-xl hover:scale-105">
+						<div className="grid items-center justify-center grid-cols-2 gap-4">
+							<div className="m-auto">
+								<Image src={tanStack} width="64px" height="64px" alt="/" />
+							</div>
+							<div className="flex flex-col items-center justify-center">
+								<h3>TanStak Query</h3>
 							</div>
 						</div>
 					</div>
