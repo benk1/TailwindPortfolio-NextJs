@@ -41,10 +41,10 @@ const Contact = () => {
 			message: '',
 		});
 
-		// Reset the form after 5 seconds
+		// Reset the form after 4 seconds
 		setTimeout(() => {
 			setIsSubmitted(false);
-		}, 5000);
+		}, 4000);
 	};
 
 	const handleChange = (event) => {
