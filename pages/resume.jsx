@@ -1,6 +1,7 @@
-import React from 'react';
 import Head from 'next/head';
+import React from 'react';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import Link from 'next/link';
 
 const resume = () => {
 	return (
@@ -163,6 +164,12 @@ const resume = () => {
 						service was created in close collaboration with Minduu's own
 						developers. The website's implementation focused on responsive
 						design principles and accessibility.
+						<br />
+						<Link href="https://www.epressi.com/tiedotteet/ohjelmistoteollisuus/yhteiskunnallinen-yrittajyys-yhdisti-minduun-ja-bearitn.html">
+							<span className="underline cursor-pointer ">
+								A word from minduu CEO
+							</span>
+						</Link>
 						<br />
 						<b>Oskari Project</b> - Patly participated in bearIt internal
 						project for developing a survey system for industry
