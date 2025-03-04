@@ -45,15 +45,15 @@ const resume = () => {
 					</div>
 				</div>
 				<p>
-					I am a Software Engineer currently specializing in Web development.
-					Momentarily my strength is front-end development with React and Redux
-					and other front-end technologies.I have participated in multiple
-					projects during my past experience where teamwork and individuality
-					were both crucial.I am hard working,quick to learn with a positive
-					attitude under pressure. I have worked with different tools from my
-					past experience and been able to adopt quickly. I have developed good
+					I am a Software Engineer specializing in Web development, with a
+					strong focus on front-end technologies like React and Redux and other
+					front-end technologies.I have participated in multiple projects during
+					my past experience where teamwork and individuality were both
+					crucial.I am hard working,quick to learn with a positive attitude
+					under pressure. I have worked with different tools from my past
+					experience and been able to adopt quickly. I have developed good
 					communication skills and adaptability to different working
-					environments. .
+					environments.
 				</p>
 				<br />
 				{/* <p>
@@ -87,6 +87,7 @@ const resume = () => {
 						<span className="px-2">|</span>
 						Tailwind,Material-UI,MaterializeCSS,Flexbox
 						<span className="px-2">|</span> Firebase
+						<span className="px-2">|</span> Liferay 7.4
 						<span className="px-2">|</span> Regular Expressions
 						<span className="px-2">|</span> RESTAPI
 						<span className="px-2">|</span> Express
@@ -118,6 +119,18 @@ const resume = () => {
 							given deadlines.
 							<b>Valmet oy</b> - worked on paper Machine reference Database
 							project(PM-ref DB)
+						</li>
+						<li>
+							<b> AI Agent</b> - Developed an twoday AI-driven web platform with
+							interactive chat solutions using React, Next.js, and Material UI.
+							Focused on seamless user interactions and efficient data
+							management.
+						</li>
+						<li>
+							<b> Kotoutumisen-Tukena</b> - Built and customized a Liferay
+							7.4-based integration support platform using React, FreeMarker,
+							and Liferay CMS. Ensured alignment with Figma designs and
+							accessibility standards.
 						</li>
 					</ul>
 				</div>
