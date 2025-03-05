@@ -1,18 +1,20 @@
 import Image from 'next/image';
 import React from 'react';
-import Html from '../public/assets/images/html.png';
-import Css from '../public/assets/images/css.png';
-import Javascript from '../public/assets/images/javascript.png';
-import ReactImg from '../public/assets/images/react.png';
-import Tailwind from '../public/assets/images/tailwind.png';
-import Github from '../public/assets/images/github1.png';
-import Firebase from '../public/assets/images/firebase.png';
-import NextJS from '../public/assets/images/nextjs.png';
-import TypeScript from '../public/assets/images/typescript.png';
 import AWS from '../public/assets/images/aws.png';
+import Css from '../public/assets/images/css.png';
+import Firebase from '../public/assets/images/firebase.png';
+import Github from '../public/assets/images/github1.png';
+import Html from '../public/assets/images/html.png';
+import Javascript from '../public/assets/images/javascript.png';
 import mongo from '../public/assets/images/mongoDB.png';
 import netlify from '../public/assets/images/netlify-logo.png';
+import NextJS from '../public/assets/images/nextjs.png';
+import ReactImg from '../public/assets/images/react.png';
 import redux from '../public/assets/images/redux.png';
+import Tailwind from '../public/assets/images/tailwind.png';
+import tanStack from '../public/assets/images/tanStack.png';
+import TypeScript from '../public/assets/images/typescript.png';
+
 import bitbucket from '../public/assets/images/bitbucket.png';
 //Note in first din lg:h-screen or md:h-screen
 const Skills = () => {
@@ -156,6 +158,17 @@ const Skills = () => {
 							</div>
 							<div className="flex flex-col items-center justify-center">
 								<h3>Redux</h3>
+							</div>
+						</div>
+					</div>
+
+					<div className="p-6 duration-300 ease-in shadow-xl rounded-xl hover:scale-105">
+						<div className="grid items-center justify-center grid-cols-2 gap-4">
+							<div className="m-auto">
+								<Image src={tanStack} width="64px" height="64px" alt="/" />
+							</div>
+							<div className="flex flex-col items-center justify-center">
+								<h3>TanStak Query</h3>
 							</div>
 						</div>
 					</div>
