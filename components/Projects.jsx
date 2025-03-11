@@ -13,23 +13,14 @@ import Link from 'next/link';
 
 const Projects = () => {
 	return (
-		<div id="projects" className="w-full">
+		<div id="projects" className="w-full pt-4 ">
 			<div className="max-w-[1240px] mx-auto px-2 py-16">
 				<p className="text-xl tracking-widest uppercase text-[#5651e5]">
 					Professional Projects
 				</p>
-				<h2 className="py-4">What I&apos;ve Built</h2>
-				<div className="flex items-center w-full p-2 py-16 ">
+				<h2 className="py-4">Projects I&apos;ve Worked On</h2>
+				<div className="flex items-center w-full p-2 py-16 pt-4" >
 					<ul>
-						<li>
-							<b>Valmet oy</b> - worked on paper Machine reference Database
-							project(PM-ref DB)The PM Reference DB project aimed to develop a
-							tool for referencing and organizing time series data of paper
-							machines. It facilitates the creation of hierarchical structures
-							that depict the operation and logical layout of paper machines,
-							linking measurement parameters to specific components."
-						</li>
-						<br />
 						<li>
 							<b>twoday AI Works unit </b>- Worked on twoday's Artificial
 							Intelligent as a front-end developer. developed user interfaces
@@ -37,6 +28,15 @@ const Projects = () => {
 							leveraging the power of the GPT language model, it enhances data
 							processing efficiency, accelerates business operations, and
 							automates both internal and external service processes.
+						</li>
+						<br />
+						<li>
+							<b>Valmet oy</b> - worked on paper Machine reference Database
+							project(PM-ref DB)The PM Reference DB project aimed to develop a
+							tool for referencing and organizing time series data of paper
+							machines. It facilitates the creation of hierarchical structures
+							that depict the operation and logical layout of paper machines,
+							linking measurement parameters to specific components."
 						</li>
 						<br />
 						<li>
@@ -48,11 +48,11 @@ const Projects = () => {
 						<br />
 						<li>
 							<b>Coach App</b> - I was involved in developing an application
-							where coaches can monitor their players' results, set goals, and
-							assess capabilities based on game and training outcomes. An
-							intuitive user interface was created for the application, along
-							with a cloud-based backend. In my role, I also consulted with
-							professional coaches to map out their needs.
+							where sports coaches can monitor their players' results, set
+							goals, and assess capabilities based on game and training
+							outcomes. An intuitive user interface was created for the
+							application, along with a cloud-based backend. In my role, I also
+							consulted with professional coaches to map out their needs.
 						</li>
 						<br />
 						<li>
@@ -66,6 +66,11 @@ const Projects = () => {
 							design principles and accessibility.
 						</li>
 						<br />
+						<Link href="https://www.epressi.com/tiedotteet/ohjelmistoteollisuus/yhteiskunnallinen-yrittajyys-yhdisti-minduun-ja-bearitn.html">
+							<span className="underline cursor-pointer ">
+								A word from minduu CEO
+							</span>
+						</Link>
 						<li>
 							<b>Oskari Project</b> - Patly participated in bearIt internal
 							project for developing a survey system for industry
@@ -116,7 +121,7 @@ const Projects = () => {
 						More Projects On My Github Page
 					</a>{' '}
 				</p> */}
-				<div className="py-12 ">
+				<div>
 					<Link href="https://github.com/benk1/">
 						<p className="py-2 text-gray-600 underline cursor-pointer">
 							Personal Projects Can be found On My Github Page

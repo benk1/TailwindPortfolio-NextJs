@@ -9,7 +9,7 @@ const Main = () => {
 	return (
 		<div id="home" className="w-full h-screen text-center">
 			<div className="max-w-[1240px] w-full h-full mx-auto  p-2 flex justify-center items-center">
-				<div className="mt-20">
+				<div className="mt-44 sm:mt-0">
 					<p className="text-sm tracking-widest text-gray-600 uppercase">
 						lets build something together
 					</p>

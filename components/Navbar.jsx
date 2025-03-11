@@ -61,24 +61,33 @@ const Navbar = () => {
 			style={{ backgroundColor: `${navBg}` }}
 			className={
 				shadow
-					? `fixed w-full h-15 shadow-xl z-[100] ease-in-out duration-300 ${
+					? `fixed w-full shadow-xl z-[100] ease-in-out duration-300 ${
 							darkToggle && 'dark:bg-slate-900'
-					  } `
-					: `fixed w-full h-15 z-[100] dark:bg-slate-900 ${
+					  }`
+					: `fixed w-full z-[100] dark:bg-slate-900 ${
 							darkToggle && 'dark:bg-slate-900'
 					  }`
 			}
+
+			// style={{ backgroundColor: `${navBg}` }}
+			// className={`fixed w-full z-[100] ease-in-out duration-300 px-4 h-[40px] sm:h-[50px] md:px-16 
+      //   ${shadow ? 'shadow-xl' : ''} 
+      //   ${darkToggle ? 'dark:bg-slate-900' : ''}`}
 		>
-			<div className="flex items-center justify-between w-full h-full px-2 text-lg 2xl:px-16">
+			<div className="flex items-center justify-between w-full px-2 text-lg 2xl:px-16">
 				<Link href="/">
 					<a>
-						<Image
-							src={NavLogo}
-							alt="/"
-							width="100"
-							height="100"
-							className="cursor-pointer"
-						/>
+						<div className="relative w-[100px] h-[70px] hidden md:block">
+							<Image
+								src={NavLogo}
+								alt="Logo"
+								layout="fill"
+								width={100}
+								height={100}
+								className="cursor-pointer"
+								objectFit="contain"
+							/>
+						</div>
 					</a>
 				</Link>
 				<div>
@@ -150,14 +159,15 @@ const Navbar = () => {
 				>
 					<div>
 						<div className="flex items-center justify-between w-full">
+							<div></div>
 							<Link href="/">
-								<a>
+								<a className="hidden md:block">
 									<Image src={NavLogo} width="87" height="35" alt="/" />
 								</a>
 							</Link>
 							<div
 								onClick={handleNav}
-								className="p-3 rounded-full shadow-lg cursor-pointer shadow-gray-400"
+								className="p-3 ml-auto rounded-full shadow-lg cursor-pointer shadow-gray-400"
 							>
 								<AiOutlineClose />
 							</div>

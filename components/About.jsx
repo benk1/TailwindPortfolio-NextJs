@@ -5,10 +5,10 @@ import AboutImg from '../public/assets/images/about.jpg';
 //Note to play with this md:h-screen in first div
 const About = () => {
 	return (
-		<div id="about" className="flex items-center w-full p-2 py-16 ">
+		<div id="about" className="flex items-center w-full p-2 py-16 pt-24 ">
 			<div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
 				<div className="col-span-2">
-					<p className="uppercase text-xl tracking-widest text-[#5651e5]">
+					<p className="uppercase text-xl tracking-widest text-[#5651e5] pt-8 sm:pt-0">
 						About
 					</p>
 					<h2 className="py-4">Who I Am</h2>

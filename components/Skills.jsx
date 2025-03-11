@@ -19,9 +19,12 @@ import bitbucket from '../public/assets/images/bitbucket.png';
 //Note in first din lg:h-screen or md:h-screen
 const Skills = () => {
 	return (
-		<div id="skills" className="w-full p-2 lg:h-screen">
-			<div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
-				<p className="text-xl tracking-widest uppercase text-[#5651e5]">
+		<div
+			id="skills"
+			className="w-full p-2 pt-12 sm:pt-4 lg:pt-16 lg:h-screen"
+		>
+			<div className="max-w-[1240px] mx-auto flex flex-col justify-center pt-6">
+				<p className="text-xl tracking-widest uppercase text-[#5651e5] ">
 					Skills
 				</p>
 				<h2 className="py-4">What I Can Do</h2>
