@@ -16,16 +16,70 @@ const Projects = () => {
 		<div id="projects" className="w-full">
 			<div className="max-w-[1240px] mx-auto px-2 py-16">
 				<p className="text-xl tracking-widest uppercase text-[#5651e5]">
-					Personal Projects
+					Professional Projects
 				</p>
 				<h2 className="py-4">What I&apos;ve Built</h2>
-				<div className="grid gap-8 md:grid-cols-2">
-					<ProjectItem
+				<div className="flex items-center w-full p-2 py-16 ">
+					<ul>
+						<li>
+							<b>Valmet oy</b> - worked on paper Machine reference Database
+							project(PM-ref DB)The PM Reference DB project aimed to develop a
+							tool for referencing and organizing time series data of paper
+							machines. It facilitates the creation of hierarchical structures
+							that depict the operation and logical layout of paper machines,
+							linking measurement parameters to specific components."
+						</li>
+						<br />
+						<li>
+							<b>twoday AI Works unit </b>- Worked on twoday's Artificial
+							Intelligent as a front-end developer. developed user interfaces
+							that serves as your company's personal superintelligence by
+							leveraging the power of the GPT language model, it enhances data
+							processing efficiency, accelerates business operations, and
+							automates both internal and external service processes.
+						</li>
+						<br />
+						<li>
+							<b>Kotoutumisen-Tukena</b> - Built and customized a Liferay
+							7.4-based integration support platform using React, FreeMarker,
+							and Liferay CMS. Ensured alignment with Figma designs and
+							accessibility standards.
+						</li>
+						<br />
+						<li>
+							<b>Coach App</b> - I was involved in developing an application
+							where coaches can monitor their players' results, set goals, and
+							assess capabilities based on game and training outcomes. An
+							intuitive user interface was created for the application, along
+							with a cloud-based backend. In my role, I also consulted with
+							professional coaches to map out their needs.
+						</li>
+						<br />
+						<li>
+							<b>Minduu(AtCare Oy)</b> - Development of the Minduu.fi
+							psychotherapy service,I was involved in creating a therapy search
+							service from scratch. For this search service, several different
+							search algorithms were developed to enhance the user experience by
+							speeding up searches and delivering more accurate results. The
+							service was created in close collaboration with Minduu's own
+							developers. The website's implementation focused on responsive
+							design principles and accessibility.
+						</li>
+						<br />
+						<li>
+							<b>Oskari Project</b> - Patly participated in bearIt internal
+							project for developing a survey system for industry
+							customers(Oscari)
+						</li>
+						<li></li>
+					</ul>
+					{/* <ProjectItem
 						title="World Countries"
 						backgroundImg={worldCountries}
 						projectUrl="/worldCountries"
 						tech="React JS"
 					/>
+
 					<ProjectItem
 						title="Finance Management"
 						backgroundImg={financeImg}
@@ -55,7 +109,7 @@ const Projects = () => {
 						backgroundImg={memoryImage}
 						projectUrl="/magicMemory"
 						tech="React JS"
-					/>
+					/> */}
 				</div>
 				{/* <p className="items-center">
 					<a className="about" href="https://github.com/benk1/">
@@ -65,7 +119,7 @@ const Projects = () => {
 				<div className="py-12 ">
 					<Link href="https://github.com/benk1/">
 						<p className="py-2 text-gray-600 underline cursor-pointer">
-							More Personal Projects On My Github Page
+							Personal Projects Can be found On My Github Page
 						</p>
 					</Link>
 				</div>
