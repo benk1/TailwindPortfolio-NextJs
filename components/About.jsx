@@ -8,12 +8,12 @@ const About = () => {
 		<div id="about" className="flex items-center w-full p-2 py-16 pt-24 ">
 			<div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
 				<div className="col-span-2">
-					<p className="uppercase text-xl tracking-widest text-[#5651e5] pt-8 sm:pt-0">
+					<p className="pt-8 text-xl font-bold tracking-widest text-blue-700 uppercase sm:pt-0">
 						About
 					</p>
 					<h2 className="py-4">Who I Am</h2>
 					<p className="py-2 text-gray-600">
-						I am a Web developer, I really enjoy developIng Apps using different
+						{/* I am a Web developer, I really enjoy developIng Apps using different
 						Technologies, since my graduation at Metropolia University of
 						applied science in Finland-Helsinki, I have been lucky enough to be
 						involved in multiple IT projects, but this time, I am in a phase of
@@ -28,73 +28,85 @@ const About = () => {
 						am most proficient in building front-end applications using HTML,
 						CSS, Javascript, and React, I am a quick learner and can pick up new
 						tech stacks as needed. I believe that being a great developer is not
-						using one specific language, but choosing the best tool for the job.
+						using one specific language, but choosing the best tool for the job. */}
+						I am a Web Developer with a passion for building intuitive and
+						engaging applications. Since graduating from Metropolia University
+						of Applied Sciences in Helsinki, Finland, I have had the opportunity
+						to work on multiple IT projects, gaining hands-on experience in
+						front-end development and some exposure to backend technologies.
+						Currently, I focus on front-end development, creating responsive and
+						user-friendly interfaces that connect seamlessly with APIs and
+						backend services. While my primary expertise is in React,NextJs,
+						JavaScript, HTML, and CSS, I enjoy learning new technologies and
+						adapting to different tools as needed. Beyond development, I have a
+						growing interest in web design, ensuring that applications are not
+						just functional but also visually appealing and accessible. I
+						believe that being a great developer is about choosing the right
+						tools for the job and continuously improving my skills.
 					</p>
 					<p className="py-2 text-gray-600">
 						I started web developement in 2017 manage to build multiple websites
-						on CMS platforms such as WordPress, e-Commerce, and Shopify. I have
-						experience working directly with clients and taking mock wireframes
-						all the way to deployed applications.
+						on CMS platforms such as WordPress,Shopify, and e-Commerce
+						solutions. I have experience working directly with clients
+						transforming mock wireframes into fully deployed applications.
 					</p>
 
 					<p className="py-2 text-gray-600">
-						I am obsessed with making things happen, in matter of fact I am more
-						interested on making things better. In my Software development
-						career, I started the development based on programming with Ruby
-						Language and developed further with Ruby on Rails framework, I
-						participated in different projects as a trainee at Sibesonke Ltd
-						based in Espoo city in Finland, where I trained and work as a
-						software developer using Ruby and Ruby on Rails, which has really
-						sparked me into web development. I had a great time working on
-						different software development methodologies including functional
-						and unit testing on the process. I was lucky enough to work with
-						another company called Integrify Oy located in the heart of Helsinki
-						capital city Of Finland, where I built most of my projects and
-						stabilize myself as a full web-developer, Currently Iam working as a
-						web developer with twoday Oy based in Helsink, for more about what
-						projects I have been building for personal and hobbies,please click
-						the github link below and check it out{' '}
+						I am passionate about creating and improving applications. In my
+						Software development career, My journey in software development
+						began with Ruby, progressing into Ruby on Rails, where I worked on
+						various projects as a trainee at Sibesonke Ltd in Espoo, Finland.
+						During my time there, I gained hands-on experience in web
+						development, functional and unit testing. I had a great time working
+						on different software development methodologies including functional
+						and unit testing on the process. Later, I joined Integrify Oy
+						located in the heart of Helsinki city, where I expanded my skills
+						and solidified myself as a web developer. Following that, I worked
+						at BearIT Oy as a consultant, contributing to multiple projects
+						across different industries.I then moved to twoday Oy, where I
+						continued working as a consultant until March 2025, specializing in
+						front-end development and building impactful applications.
+						Currently, I am currently seeking a new challenge in front-end
+						development, where I can contribute my skills and continue growing
+						as a web developer. Feel free to explore more of my previous
+						projects, both personal and hobby-based, on my GitHub below.
 						<a className="text-gray-600 about" href="https://github.com/benk1/">
 							click here
 						</a>{' '}
 					</p>
 
 					<p className="py-2 text-gray-600">
-						I have good communication skills and adaptability to different
-						working environments. I am team player,highly driven motivated
-						person, hardworking, quick to learn with a positive attitude under
-						pressure. This is one of the reason which makes me who I am today.
-						At the moment I am specializing in front-end development and
-						learning my path as a full stack developer at twoday oy where I am
-						more working with HTML5, CSS, JAVASCRIPT,
-						ReactJS/Redux,NodeJs,Express, AWS and many more web-technologies. I
-						have good knowledge of using GIT(version control
-						system),Mysql,MongoDB databases, good with Regular expressions,
-						experienced with multiple editors e.g Visual studio code as one of
-						my favourite at the moment, sublime, Atom and many more. As a
-						graduate with a bachelor of engineering In Information Technology, I
-						am able and flexible to do any IT-related job apart from specialized
-						one above. My experience have taught me how to work with different
-						tools and be able to adapt to new working environments.{' '}
+						I have strong communication skills and adapt easily to different
+						working environments.I am highly motivated,hardworking and quick to
+						learn, always maintaining a positive attitude under pressure. These
+						qualities have shaped who I am today. Currently, I specialize in
+						front-end development while expanding my skills as a full-stack
+						developer.I am proficient in Git(version control), MySQL, MongoDB,
+						and Regular Expressions, with experience using multiple code editors
+						such as Visual Studio Code, IntelliJ, and Atom. As a Bachelor of
+						Engineering graduate in Information Technology, I have a flexible
+						skill set and the ability to adapt to various IT-related roles
+						beyond my primary expertise. My experience has taught me to work
+						effectively with different tools and quickly adapt to new
+						environments.
 					</p>
 
 					<p className="py-2 text-gray-600">
-						I have team work experience with different projects. I get along
-						with different kinds of people and I am eager to learn new things to
-						challenge myself. I am also interested in learning foreign
-						languages, in this way building my understanding and experience of
-						other cultures and communities. Currently I am good in Finnish
-						language as i have been living in Finland for some time now, apart
-						from that I am fluent in written and spoken English .
+						I have experience working in collaborative team environments across
+						various projects. . I enjoy working with diverse groups of people
+						and continuously seek opportunities to learn and challenge myself.
+						Beyond technology, I have a strong interest in foreign languages, as
+						they allow me to understand different cultures and communities.
+						Having lived in Finland for several years, I have developed
+						proficiency in Finnish, and I am fluent in both written and spoken
+						English.
 					</p>
 					<p className="py-2 text-gray-600">
-						At my spare time, i like to take care of myself healthywise by doing
-						different kind pf sports activities, one of my favorite sport is
-						playing football as Americans call it soccer:), couple of days in a
-						week I like to go to the gym to maintain my fitness. During summer
-						time you will always find me doing some evening jogging and long
-						walks around the parks and enjoying the nature as it is beautiful
-						out there.
+						In my free time, I prioritize staying active and maintaining a
+						healthy lifestyle through various sports.Football (soccer) is my
+						favorite, and I enjoy playing regularly. A few times a week, I go to
+						the gym to stay fit, and during the summer, I love evening jogs and
+						long walks in nature, especially around parks.
 					</p>
 					<Link href="/#projects">
 						<p className="py-2 text-gray-600 underline cursor-pointer">

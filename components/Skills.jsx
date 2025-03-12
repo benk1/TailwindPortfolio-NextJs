@@ -14,17 +14,15 @@ import redux from '../public/assets/images/redux.png';
 import Tailwind from '../public/assets/images/tailwind.png';
 import tanStack from '../public/assets/images/tanStack.png';
 import TypeScript from '../public/assets/images/typescript.png';
+import GitLab from "../public/assets/images/gitlab-logo.png"
 
 import bitbucket from '../public/assets/images/bitbucket.png';
 //Note in first din lg:h-screen or md:h-screen
 const Skills = () => {
 	return (
-		<div
-			id="skills"
-			className="w-full p-2 pt-12 sm:pt-4 lg:pt-16 lg:h-screen"
-		>
+		<div id="skills" className="w-full p-2 pt-12 sm:pt-4 lg:pt-16 lg:h-screen">
 			<div className="max-w-[1240px] mx-auto flex flex-col justify-center pt-6">
-				<p className="text-xl tracking-widest uppercase text-[#5651e5] ">
+				<p className="text-xl font-bold tracking-widest text-blue-700 uppercase ">
 					Skills
 				</p>
 				<h2 className="py-4">What I Can Do</h2>
@@ -183,6 +181,17 @@ const Skills = () => {
 							</div>
 							<div className="flex flex-col items-center justify-center">
 								<h3>Bitbucket</h3>
+							</div>
+						</div>
+					</div>
+
+					<div className="p-6 duration-300 ease-in shadow-xl rounded-xl hover:scale-105">
+						<div className="grid items-center justify-center grid-cols-2 gap-4">
+							<div className="m-auto">
+								<Image src={GitLab} width="64px" height="64px" alt="/" />
+							</div>
+							<div className="flex flex-col items-center justify-center">
+								<h3>GitLab</h3>
 							</div>
 						</div>
 					</div>

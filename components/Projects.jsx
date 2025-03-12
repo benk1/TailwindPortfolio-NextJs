@@ -15,11 +15,11 @@ const Projects = () => {
 	return (
 		<div id="projects" className="w-full pt-4 ">
 			<div className="max-w-[1240px] mx-auto px-2 py-16">
-				<p className="text-xl tracking-widest uppercase text-[#5651e5]">
+				<p className="text-xl font-bold tracking-widest text-blue-700 uppercase">
 					Professional Projects
 				</p>
 				<h2 className="py-4">Projects I&apos;ve Worked On</h2>
-				<div className="flex items-center w-full p-2 py-16 pt-4" >
+				<div className="flex items-center w-full p-2 py-16 pt-4">
 					<ul>
 						<li>
 							<b>twoday AI Works unit </b>- Worked on twoday's Artificial
