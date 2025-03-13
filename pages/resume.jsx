@@ -99,7 +99,7 @@ const resume = () => {
 						<span className="italic font-bold">twoday Oy</span>
 						<span className="px-2">|</span>Finland, Helsinki
 					</p>
-					<p className="py-1 italic">Web Developer (2023 - Current)</p>
+					<p className="py-1 italic">Web Developer (August 2022 - March 2025)</p>
 					<ul className="py-1 leading-relaxed list-disc list-outside px-7">
 						<li>
 							Worked directly with a diverse client base to understand and
@@ -142,7 +142,7 @@ const resume = () => {
 						<span className="italic font-bold">BEARIT Oy</span>
 						<span className="px-2">|</span>Finland, Helsinki
 					</p>
-					<p className="py-1 italic">Front End Web Developer (2022 )</p>
+					<p className="py-1 italic">Front End Web Developer (January 2022 August 2022 )</p>
 					<ul className="py-1 leading-relaxed list-disc list-outside px-7">
 						<li>
 							Working with multiple clients to meet their requirements under
