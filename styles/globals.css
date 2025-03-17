@@ -25,7 +25,7 @@ html {
 
 @layer base {
 	body {
-		@apply bg-[#ecf0f3] text-[#1f2937] tracking-wide;
+		@apply bg-[#ecf0f3] text-[#1f2937] tracking-wide dark:bg-[#121212] dark:text-white;
 	}
 
 	h1,
@@ -53,3 +53,9 @@ html {
 		@apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white;
 	}
 }
+
+.dark body {
+    /* background-color: #121212 !important; */
+    color: white !important;
+}
+

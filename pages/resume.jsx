@@ -16,7 +16,9 @@ const resume = () => {
 			</Head>
 
 			<div className="max-w-[940px] mx-auto p-2 pt-[120px]">
-				<h2 className="text-center">Curriculum vitae - CV</h2>
+				<h2 className="font-bold text-center text-blue-700 ">
+					Curriculum vitae - CV
+				</h2>
 				<div className="bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center">
 					<h2 className="text-center">Bernard Kakengi</h2>
 					<div className="flex">
@@ -47,14 +49,16 @@ const resume = () => {
 				</div>
 				<p>
 					I am a Software Engineer specializing in Web development, with a
-					strong focus on front-end technologies like React and Redux and other
-					front-end technologies.I have participated in multiple projects during
-					my past experience where teamwork and individuality were both
-					crucial.I am hard working,quick to learn with a positive attitude
-					under pressure. I have worked with different tools from my past
-					experience and been able to adopt quickly. I have developed good
-					communication skills and adaptability to different working
-					environments.
+					strong focus on front-end technologies like React,NextJs and Redux and
+					other modern front-end technologies. Recently, I worked on an
+					AI-driven web platform (twoday AI Agent), developing an interactive
+					user experience that gained over 100 clients across Finland. <br />I
+					have participated in multiple projects during my past experience where
+					teamwork and individuality were both crucial. I am hard working, quick
+					to learn with a positive attitude under pressure. I have worked with
+					different tools from my past experience and been able to adopt
+					quickly. I have developed good communication skills and adaptability
+					to different working environments.
 				</p>
 				<br />
 
@@ -99,35 +103,32 @@ const resume = () => {
 						<span className="italic font-bold">twoday Oy</span>
 						<span className="px-2">|</span>Finland, Helsinki
 					</p>
-					<p className="py-1 italic">Web Developer (August 2022 - March 2025)</p>
+					<p className="py-1 italic">
+						Web Developer (August 2022 - March 2025)
+					</p>
 					<ul className="py-1 leading-relaxed list-disc list-outside px-7">
-						<li>
-							Worked directly with a diverse client base to understand and
-							implement multiple technologies and programs.
-						</li>
 						<li>
 							Working with multiple clients to meet their requirements under
 							given deadlines <br />
-							<b>Valmet oy</b> - worked on paper Machine reference Database
-							project(PM-ref DB){''}
-							The PM Reference DB project aimed to develop a tool for
-							referencing and organizing time series data of paper machines. It
-							facilitates the creation of hierarchical structures that depict
-							the operation and logical layout of paper machines, linking
-							measurement parameters to specific components." <br />
-							<b>twoday AI Works unit</b> - Worked on twoday's Artificial
-							Intelligent as a front-end developer. developed user interfaces
-							that serves as your company's personal superintelligence by
-							leveraging the power of the GPT language model, it enhances data
-							processing efficiency, accelerates business operations, and
-							automates both internal and external service processes.
+							<li>
+								<b>twoday AI Agent</b> - Developed twoday AI-driven web platform
+								with interactive chat solutions focusing on seamless user
+								interactions and efficient data management. Built responsive
+								user interfaces that act as a company's personal
+								superintelligence, leveraging GPT language models to enhance
+								data processing, automation, and business operations.
+							</li>
+							<li>
+								<b>Valmet oy</b> - worked on paper Machine reference Database
+								project(PM-ref DB){''}
+								The PM Reference DB project aimed to develop a tool for
+								referencing and organizing time series data of paper machines.
+								It facilitates the creation of hierarchical structures that
+								depict the operation and logical layout of paper machines,
+								linking measurement parameters to specific components. <br />
+							</li>
 						</li>
-						<li>
-							<b> AI Agent</b> - Developed an twoday AI-driven web platform with
-							interactive chat solutions using React, Next.js, and Material UI.
-							Focused on seamless user interactions and efficient data
-							management.
-						</li>
+
 						<li>
 							<b> Kotoutumisen-Tukena</b> - Built and customized a Liferay
 							7.4-based integration support platform using React, FreeMarker,
@@ -142,41 +143,54 @@ const resume = () => {
 						<span className="italic font-bold">BEARIT Oy</span>
 						<span className="px-2">|</span>Finland, Helsinki
 					</p>
-					<p className="py-1 italic">Front End Web Developer (January 2022 August 2022 )</p>
+					<p className="py-1 italic">
+						Front End Web Developer (January 2022 August 2022 )
+					</p>
 					<ul className="py-1 leading-relaxed list-disc list-outside px-7">
 						<li>
 							Working with multiple clients to meet their requirements under
 							given deadlines
 						</li>
 						<li>
-							Implement comprehensive mobile responsive UI layouts with
-							understanding of front-end technologies e.g HTML, CSS,Material UI,
-							JavaScript and React <br />
-							<b>Coach App -</b> I was involved in developing an application
-							where coaches can monitor their players' results, set goals, and
-							assess capabilities based on game and training outcomes. An
-							intuitive user interface was created for the application, along
-							with a cloud-based backend. In my role, I also consulted with
-							professional coaches to map out their needs.
+							Worked directly with a diverse client base to understand and
+							implement multiple technologies and programs.
 						</li>
-						<b>Minduu(AtCare Oy)</b> - Development of the Minduu.fi
-						psychotherapy service,I was involved in creating a therapy search
-						service from scratch. For this search service, several different
-						search algorithms were developed to enhance the user experience by
-						speeding up searches and delivering more accurate results. The
-						service was created in close collaboration with Minduu's own
-						developers. The website's implementation focused on responsive
-						design principles and accessibility.
-						<br />
+						<li>
+							<b>Coach App -</b> Developed a performance-tracking application
+							enabling coaches to monitor player progress, set goals, and assess
+							capabilities based on game and training data. Designed and
+							implemented an intuitive user interface for seamless navigation
+							and usability. I collaborated with professional coaches to gather
+							insights and translate their needs into functional application
+							features. Worked closely with the cloud-based backend team to
+							ensure smooth data integration and real-time performance tracking.
+						</li>
+						<li>
+							<b>Minduu(AtCare Oy)</b> - Contributed to the development of
+							Minduu.fi, a Finnish psychotherapy search service, building the
+							platform from scratch. Implemented advanced search algorithms to
+							enhance user experience by improving search speed and result
+							accuracy. Developed the website with a strong emphasis on
+							responsive design and accessibility, ensuring a seamless
+							experience across devices. Collaborated closely with Minduu’s
+							in-house developers to align technical implementation with
+							business needs.
+						</li>
 						<Link href="https://www.epressi.com/tiedotteet/ohjelmistoteollisuus/yhteiskunnallinen-yrittajyys-yhdisti-minduun-ja-bearitn.html">
-							<span className="underline cursor-pointer ">
+							<span className="text-blue-600 underline cursor-pointer hover:text-blue-800">
 								A word from minduu CEO
 							</span>
 						</Link>
 						<br />
-						<b>Oskari Project</b> - Patly participated in bearIt internal
-						project for developing a survey system for industry
-						customers(Oscari)
+						<li>
+							<b>Oskari Project</b> - Contributed to the development of Oskari,
+							a survey system designed for industry clients as part of BearIT’s
+							internal project. I Assisted in building user-friendly interfaces
+							to enhance the survey experience and improve data collection
+							efficiency. Worked closely with the development team to implement
+							responsive design and industry-specific features for better
+							usability.
+						</li>
 					</ul>
 				</div>
 
@@ -214,20 +228,23 @@ const resume = () => {
 					</p>
 					<ul className="py-1 leading-relaxed list-disc list-outside px-7">
 						<li>
-							Designed the back-end development tracing tool using Ruby and Ruby
-							on Rails.
+							Developed a back-end tracing tool using Ruby on Rails, improving
+							system efficiency.
 						</li>
 						<li>
-							Dealing with Ruby on Rails active records to manipulate the
-							database.
+							Worked with Active Record ORM to manipulate databases efficiently.
 						</li>
-						<li>Database manipulation using MySQL.</li>
-						<li>Excellent knowledge of Using Git (Version Control System).</li>
-						<li>Excellent with Regular expressions.</li>
+						<li>Performed database management and optimization using MySQL.</li>
+						<li>
+							Utilized Git for version control and collaborative development.
+						</li>
+						<li>
+							Strong proficiency in Regular Expressions for data parsing and
+							validation.
+						</li>
 
 						<li>
-							Good working knowledge of Linux (Ubuntu), MS Access, Excel and
-							Word/LibreOffice and development of web pages and design.
+							Good working knowledge of Linux (Ubuntu).
 						</li>
 					</ul>
 

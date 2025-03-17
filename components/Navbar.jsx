@@ -14,8 +14,9 @@ import { useRouter } from 'next/router';
 const Navbar = () => {
 	const [nav, setNav] = useState(false);
 	const [shadow, setShadow] = useState(false);
-	const [navBg, setNavBg] = useState('#ecf0f3');
-	const [linkColor, setLinkColor] = useState('#1f2937');
+	const [navBg, setNavBg] = useState('#cfd8e3');
+	const [linkColor, setLinkColor] = useState('#002DA1');
+
 	const [position, setPosition] = useState('fixed');
 	const [darkToggle, setDarkToggle] = React.useState(false);
 
@@ -70,9 +71,9 @@ const Navbar = () => {
 			}
 
 			// style={{ backgroundColor: `${navBg}` }}
-			// className={`fixed w-full z-[100] ease-in-out duration-300 px-4 h-[40px] sm:h-[50px] md:px-16 
-      //   ${shadow ? 'shadow-xl' : ''} 
-      //   ${darkToggle ? 'dark:bg-slate-900' : ''}`}
+			// className={`fixed w-full z-[100] ease-in-out duration-300 px-4 h-[40px] sm:h-[50px] md:px-16
+			//   ${shadow ? 'shadow-xl' : ''}
+			//   ${darkToggle ? 'dark:bg-slate-900' : ''}`}
 		>
 			<div className="flex items-center justify-between w-full px-2 text-lg 2xl:px-16">
 				<Link href="/">
@@ -93,24 +94,24 @@ const Navbar = () => {
 				<div>
 					<ul
 						style={{ color: `${linkColor}` }}
-						className="items-center hidden gap-3 md:flex"
+						className="items-center hidden gap-3 md:flex text-[#002DA1]"
 					>
-						<li className="ml-10 text-sm uppercase hover:border-b hover:text-gray-800">
+						<li className="ml-10 text-sm uppercase transition duration-200 ease-in-out hover:underline hover:text-[#0047AB]">
 							<Link href="/">Home</Link>
 						</li>
-						<li className="ml-10 text-sm uppercase hover:border-b hover:text-gray-800">
+						<li className="ml-10 text-sm uppercase transition duration-200 ease-in-out hover:underline hover:text-[#0047AB]">
 							<Link href="/#about">About</Link>
 						</li>
-						<li className="ml-10 text-sm uppercase hover:border-b hover:text-gray-800">
+						<li className="ml-10 text-sm uppercase transition duration-200 ease-in-out hover:underline hover:text-[#0047AB]">
 							<Link href="/#skills">Skills</Link>
 						</li>
-						<li className="ml-10 text-sm uppercase hover:border-b hover:text-gray-800">
+						<li className="ml-10 text-sm uppercase transition duration-200 ease-in-out hover:underline hover:text-[#0047AB]">
 							<Link href="/#projects">Projects</Link>
 						</li>
-						<li className="ml-10 text-sm uppercase hover:border-b hover:text-gray-800">
+						<li className="ml-10 text-sm uppercase transition duration-200 ease-in-out hover:underline hover:text-[#0047AB]">
 							<Link href="/resume">Resume</Link>
 						</li>
-						<li className="ml-10 text-sm uppercase hover:border-b hover:text-gray-800">
+						<li className="ml-10 text-sm uppercase transition duration-200 ease-in-out hover:underline hover:text-[#0047AB]">
 							<Link href="/#contact">Contact</Link>
 						</li>
 						<li className="ml-10 text-sm">

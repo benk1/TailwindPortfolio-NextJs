@@ -13,7 +13,7 @@ import Link from 'next/link';
 
 const Projects = () => {
 	return (
-		<div id="projects" className="w-full pt-4 ">
+		<div id="projects" className="w-full pt-8 ">
 			<div className="max-w-[1240px] mx-auto px-2 py-16">
 				<p className="text-xl font-bold tracking-widest text-blue-700 uppercase">
 					Professional Projects
@@ -116,18 +116,8 @@ const Projects = () => {
 						tech="React JS"
 					/> */}
 				</div>
-				{/* <p className="items-center">
-					<a className="about" href="https://github.com/benk1/">
-						More Projects On My Github Page
-					</a>{' '}
-				</p> */}
-				<div>
-					<Link href="https://github.com/benk1/">
-						<p className="py-2 text-gray-600 underline cursor-pointer">
-							Personal Projects Can be found On My Github Page
-						</p>
-					</Link>
-				</div>
+
+				<div></div>
 			</div>
 		</div>
 	);

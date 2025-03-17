@@ -21,12 +21,12 @@ import bitbucket from '../public/assets/images/bitbucket.png';
 const Skills = () => {
 	return (
 		<div id="skills" className="w-full p-2 pt-12 sm:pt-4 lg:pt-16 lg:h-screen">
-			<div className="max-w-[1240px] mx-auto flex flex-col justify-center pt-6">
+			<div className="max-w-[1240px] mx-auto flex flex-col justify-center pt-8">
 				<p className="text-xl font-bold tracking-widest text-blue-700 uppercase ">
 					Skills
 				</p>
 				<h2 className="py-4">What I Can Do</h2>
-				<div className="grid grid-cols-2 gap-8 lg:grid-cols-4">
+				<div className="grid grid-cols-2 gap-8 lg:grid-cols-4 md:mt-8">
 					<div className="p-6 duration-300 ease-in shadow-xl rounded-xl hover:scale-105">
 						<div className="grid items-center justify-center grid-cols-2 gap-4">
 							<div className="m-auto">

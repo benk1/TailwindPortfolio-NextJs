@@ -5,30 +5,14 @@ import AboutImg from '../public/assets/images/about.jpg';
 //Note to play with this md:h-screen in first div
 const About = () => {
 	return (
-		<div id="about" className="flex items-center w-full p-2 py-16 pt-24 ">
+		<div id="about" className="flex items-center w-full p-2 ">
 			<div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
-				<div className="col-span-2">
-					<p className="pt-8 text-xl font-bold tracking-widest text-blue-700 uppercase sm:pt-0">
+				<div className="col-span-2 mt-28 md:mt-16">
+					<p className="font-bold tracking-widest text-blue-700 uppercase text6xl ">
 						About
 					</p>
 					<h2 className="py-4">Who I Am</h2>
 					<p className="py-2 text-gray-600">
-						{/* I am a Web developer, I really enjoy developIng Apps using different
-						Technologies, since my graduation at Metropolia University of
-						applied science in Finland-Helsinki, I have been lucky enough to be
-						involved in multiple IT projects, but this time, I am in a phase of
-						my career where I want to be very close to the user and this is why
-						I pursue this phase of front-end development, Apart from that I have
-						been involved in back-end development to widen up my knowledge of
-						web-development.Beyond the web-development I am currently enjoying
-						web-designing.I specialize in building mobile responsive front-end
-						UI applications that connect with API’s and other backend
-						technologies. I’m passionate about learning new technologies and
-						understand there is more than one way to accomplish a task. Though I
-						am most proficient in building front-end applications using HTML,
-						CSS, Javascript, and React, I am a quick learner and can pick up new
-						tech stacks as needed. I believe that being a great developer is not
-						using one specific language, but choosing the best tool for the job. */}
 						I am a Web Developer with a passion for building intuitive and
 						engaging applications. Since graduating from Metropolia University
 						of Applied Sciences in Helsinki, Finland, I have had the opportunity
@@ -69,9 +53,9 @@ const About = () => {
 						Currently, I am currently seeking a new challenge in front-end
 						development, where I can contribute my skills and continue growing
 						as a web developer. Feel free to explore more of my previous
-						projects, both personal and hobby-based, on my GitHub below.
+						projects, both personal and hobby-based, on my GitHub.{'   '}
 						<a className="text-gray-600 about" href="https://github.com/benk1/">
-							click here
+							Click here
 						</a>{' '}
 					</p>
 
@@ -108,11 +92,6 @@ const About = () => {
 						the gym to stay fit, and during the summer, I love evening jogs and
 						long walks in nature, especially around parks.
 					</p>
-					<Link href="/#projects">
-						<p className="py-2 text-gray-600 underline cursor-pointer">
-							Check out some former personal projects.
-						</p>
-					</Link>
 				</div>
 				<div className="flex items-center justify-center w-full h-auto p-4 m-auto duration-300 ease-in shadow-xl shadow-gray-400 rounded-xl hover:scale-105">
 					<Image src={AboutImg} className="rounded-xl" alt="/" />
