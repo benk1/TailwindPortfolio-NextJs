@@ -15,7 +15,7 @@ const resume = () => {
 				<link rel="icon" href="/fav.png" />
 			</Head>
 
-			<div className="max-w-[940px] mx-auto p-2 pt-[120px]">
+			<div className="max-w-[940px] mx-auto p-2 pt-[50px] md:pt-[120px] ">
 				<h2 className="font-bold text-center text-blue-700 ">
 					Curriculum vitae - CV
 				</h2>
@@ -243,9 +243,7 @@ const resume = () => {
 							validation.
 						</li>
 
-						<li>
-							Good working knowledge of Linux (Ubuntu).
-						</li>
+						<li>Good working knowledge of Linux (Ubuntu).</li>
 					</ul>
 
 					<div className="py-6">

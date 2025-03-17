@@ -13,7 +13,7 @@ import Link from 'next/link';
 
 const Projects = () => {
 	return (
-		<div id="projects" className="w-full pt-8 ">
+		<div id="projects" className="w-full md:pt-8">
 			<div className="max-w-[1240px] mx-auto px-2 py-16">
 				<p className="text-xl font-bold tracking-widest text-blue-700 uppercase">
 					Professional Projects
