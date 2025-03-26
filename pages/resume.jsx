@@ -1,9 +1,20 @@
 import Head from 'next/head';
-import React from 'react';
+import React, { useEffect } from 'react';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 const resume = () => {
+	const router = useRouter();
+	useEffect(() => {
+		const scrollToTop = () => {
+			requestAnimationFrame(() => {
+				window.scrollTo({ top: 0, behavior: 'instant' });
+			});
+		};
+
+		scrollToTop();
+	}, []);
 	return (
 		<>
 			<Head>
