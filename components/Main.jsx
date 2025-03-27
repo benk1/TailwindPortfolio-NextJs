@@ -7,22 +7,30 @@ import profilePic from '../public/assets/images/profile_pic.jpg';
 
 const Main = () => {
 	return (
-		<div id="home" className="w-full h-screen tex-t-center">
+		<div id="home" className="w-full h-screen text-center">
 			<div className="max-w-[1240px] w-full h-full mx-auto  p-2 flex justify-center items-center">
-				<div className="mb-64 md:mb-44 md:mt-0">
-					<p className="text-sm tracking-widest text-gray-600 uppercase mt-44 md:mt-0">
+				{/* <div className="mb-64 md:mb-44 md:mt-0"> */}
+				<div className="mt-10 mb-16 md:mb-44 md:mt-0">
+					{/* <p className="text-sm tracking-widest text-gray-600 uppercase mt-44 md:mt-0"> */}
+					<p className="mt-10 text-sm tracking-widest text-gray-600 uppercase md:mt-0">
 						lets build something together
 					</p>
 					<h1 className="py-4 text-gray-700">
 						Hi, I'm <span className="font-bold text-blue-700">Bernard</span>
 					</h1>
 					<div className="flex items-center justify-center w-full h-auto p-4 m-auto duration-300 ease-in shadow-xl shadow-gray-400 rounded-xl hover:scale-105">
-						<Image
+						{/* <Image
 							src={profilePic}
 							className="object-cover w-40 h-40 rounded-full sm:h-full sm:w-36 "
 							width={300}
 							height={300}
 							alt="/"
+						/> */}
+						<Image
+							src={profilePic}
+							className="object-cover rounded-full w-36 h-36 sm:w-40 sm:h-40"
+							width={300}
+							height={300}
 						/>
 					</div>
 
