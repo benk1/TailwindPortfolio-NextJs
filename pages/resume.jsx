@@ -27,9 +27,7 @@ const resume = () => {
 			</Head>
 
 			<div className="max-w-[940px] mx-auto p-2 pt-[50px] md:pt-[120px] ">
-				<h2 className="font-bold text-center text-blue-700 ">
-					Curriculum vitae - CV
-				</h2>
+				<h2 className="font-bold text-blue-700 ">Curriculum vitae - CV</h2>
 				<div className="bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center">
 					<h2 className="text-center">Bernard Kakengi</h2>
 					<div className="flex">
@@ -45,7 +43,7 @@ const resume = () => {
 						</a>
 					</div>
 				</div>
-				<div className="py-4 text-xl font-bold tracking-wider text-center uppercase">
+				<div className="py-4 text-xl font-bold tracking-wider uppercase">
 					<div className="hidden sm:block">
 						<p>
 							Web Development <span className="px-1">|</span> Problem Solving{' '}
