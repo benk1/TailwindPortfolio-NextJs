@@ -7,7 +7,7 @@ import profilePic from '../public/assets/images/profile_pic.jpg';
 
 const Main = () => {
 	return (
-		<div id="home" className="w-full min-h-screen text-center md:pt-40">
+		<div id="home" className="w-full min-h-screen text-center md:pt-20">
 			{/* <div className="max-w-[1240px] w-full h-full mx-auto  p-2 flex justify-center items-center"> */}
 			{/* <div className="flex flex-col items-center justify-center w-full max-w-screen-lg min-h-screen px-4 mx-auto text-center"> */}
 			<div className="flex flex-col items-center justify-center w-full max-w-screen-lg px-4 pt-10 pb-20 mx-auto text-center">
