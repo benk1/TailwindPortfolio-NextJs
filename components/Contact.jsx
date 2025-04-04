@@ -52,10 +52,7 @@ const Contact = () => {
 	};
 
 	return (
-		<div
-			id="contact"
-			className="w-full px-2 m-auto border-4 pt-11 md:pt-24"
-		>
+		<div id="contact" className="w-full px-2 m-auto border-4 pt-11 md:pt-24">
 			<div className="max-w-[1240px] m-auto px-2  w-full min-h-screen    ">
 				<p className="text-xl font-bold tracking-widest text-blue-700 uppercase">
 					Contact
@@ -88,29 +85,48 @@ const Contact = () => {
 										href="https://www.linkedin.com/in/bernard-k-ba2003173/"
 										target="_blank"
 										rel="noreferrer"
+										className="relative group"
 									>
 										<div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110">
 											<FaLinkedinIn />
 										</div>
+										<span className="absolute px-2 py-1 text-xs text-white transition -translate-x-1/2 bg-black rounded opacity-0 top-20 left-1/2 group-hover:opacity-100">
+											LinkedIn
+										</span>
 									</a>
 									<a
 										href="https://github.com/benk1"
 										target="_blank"
 										rel="noreferrer"
+										className="relative group"
 									>
 										<div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110">
 											<FaGithub />
 										</div>
+										<span className="absolute px-2 py-1 text-xs text-white transition -translate-x-1/2 bg-black rounded opacity-0 top-20 left-1/2 group-hover:opacity-100">
+											GitHub
+										</span>
 									</a>
 
-									<div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110">
-										<AiOutlineMail />
-									</div>
+									<Link href="#contact">
+										<a className="relative group">
+											<div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110">
+												<AiOutlineMail />
+											</div>
+											<span className="absolute px-2 py-1 text-xs text-white transition -translate-x-1/2 bg-black rounded opacity-0 top-20 left-1/2 group-hover:opacity-100">
+												Send email using the form
+											</span>
+										</a>
+									</Link>
+
 									<Link href="/resume">
-										<a>
+										<a className="relative group">
 											<div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110">
 												<BsFillPersonLinesFill />
 											</div>
+											<span className="absolute px-2 py-1 text-xs text-white transition -translate-x-1/2 bg-black rounded opacity-0 top-20 left-1/2 group-hover:opacity-100">
+												Resume
+											</span>
 										</a>
 									</Link>
 								</div>
@@ -151,6 +167,7 @@ const Contact = () => {
 												className="flex p-3 border-2 border-gray-300 rounded-lg"
 												type="number"
 												name="phone"
+												min="0"
 												value={formData.phone}
 												onChange={handleChange}
 											/>

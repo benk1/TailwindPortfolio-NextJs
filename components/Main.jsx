@@ -51,25 +51,47 @@ const Main = () => {
 							href="https://www.linkedin.com/in/bernard-k-ba2003173/"
 							target="_blank"
 							rel="noreferrer"
+							className="relative group"
 						>
 							<div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110">
 								<FaLinkedinIn />
 							</div>
+							<span className="absolute px-2 py-1 text-xs text-white transition -translate-x-1/2 bg-black rounded opacity-0 top-20 left-1/2 group-hover:opacity-100">
+								LinkedIn
+							</span>
 						</a>
-						<a href="https://github.com/benk1" target="_blank" rel="noreferrer">
+						<a
+							href="https://github.com/benk1"
+							target="_blank"
+							rel="noreferrer"
+							className="relative group"
+						>
 							<div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110">
 								<FaGithub />
 							</div>
+							<span className="absolute px-2 py-1 text-xs text-white transition -translate-x-1/2 bg-black rounded opacity-0 top-20 left-1/2 group-hover:opacity-100">
+								GitHub
+							</span>
 						</a>
 						<Link href="/#contact">
-							<div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110">
-								<AiOutlineMail />
-							</div>
+							<a className="relative group">
+								<div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110">
+									<AiOutlineMail />
+								</div>
+								<span className="absolute px-2 py-1 text-xs text-white transition -translate-x-1/2 bg-black rounded opacity-0 top-20 left-1/2 group-hover:opacity-100">
+									Send email
+								</span>
+							</a>
 						</Link>
 						<Link href="/resume">
-							<div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110">
-								<BsFillPersonLinesFill />
-							</div>
+							<a className="relative group">
+								<div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110">
+									<BsFillPersonLinesFill />
+								</div>
+								<span className="absolute px-2 py-1 text-xs text-white transition -translate-x-1/2 bg-black rounded opacity-0 top-20 left-1/2 group-hover:opacity-100">
+									Resume
+								</span>
+							</a>
 						</Link>
 					</div>
 				</div>

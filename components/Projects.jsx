@@ -28,7 +28,7 @@ const Projects = () => {
 					<ul>
 						<li>
 							<b>twoday AI Works unit </b>- Worked on twoday's Artificial
-							Intelligent as a front-end developer. developed user interfaces
+							Intelligent as a front-end developer. Developed user interfaces
 							that serves as your company's personal superintelligence by
 							leveraging the power of the GPT language model, it enhances data
 							processing efficiency, accelerates business operations, and
