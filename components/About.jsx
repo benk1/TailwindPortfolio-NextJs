@@ -5,7 +5,7 @@ import AboutImg from '../public/assets/images/about.jpg';
 //Note to play with this md:h-screen in first div
 const About = () => {
 	return (
-		<div id="about" className="flex items-center w-full p-2 ">
+		<div id="about" className="flex items-center w-full p-2 px-4 ">
 			<div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
 				<div className="col-span-2 mt-8 md:mt-24">
 					<p className="font-bold tracking-widest text-blue-700 uppercase text6xl ">
@@ -67,8 +67,7 @@ const About = () => {
 					<p className="py-2 text-gray-600">
 						I’m currently open to new opportunities in front-end development. If
 						you’re looking for a developer who’s passionate about both clean
-						code and great design, feel free to  reach out
-						directly.
+						code and great design, feel free to reach out directly.
 					</p>
 					<p className="py-2 text-gray-600">
 						In my free time, I prioritize staying active and maintaining a
