@@ -56,6 +56,9 @@ const Navbar = () => {
 		};
 		window.addEventListener('scroll', handleShadow);
 	}, [darkToggle]);
+	const isActive = (href) => {
+		return router.asPath === href;
+	};
 
 	return (
 		<div
@@ -96,22 +99,87 @@ const Navbar = () => {
 						style={{ color: `${linkColor}` }}
 						className="items-center hidden gap-3 md:flex text-[#002DA1]"
 					>
-						<li className="ml-10 text-sm uppercase transition duration-200 ease-in-out hover:underline hover:text-[#0047AB]">
+						{/* <li className="ml-10 text-sm uppercase transition duration-200 ease-in-out hover:underline hover:text-[#0047AB]">
+							<Link href="/">Home</Link>
+						</li> */}
+						<li
+							className={`ml-10 text-sm uppercase transition duration-200 ease-in-out 
+    hover:underline hover:underline-offset-4 hover:text-[#0047AB]
+    ${
+			isActive('/') && 'font bold text-[#0047AB] underline underline-offset-4'
+		}`}
+						>
 							<Link href="/">Home</Link>
 						</li>
-						<li className="ml-10 text-sm uppercase transition duration-200 ease-in-out hover:underline hover:text-[#0047AB]">
+
+						{/* <li className="ml-10 text-sm uppercase transition duration-200 ease-in-out hover:underline hover:text-[#0047AB]">
+							<Link href="/#about">About</Link>
+						</li> */}
+						<li
+							className={`ml-10 text-sm uppercase transition duration-200 ease-in-out 
+    hover:underline hover:underline-offset-4 hover:text-[#0047AB]
+    ${
+			isActive('/#about') &&
+			'font bold text-[#0047AB] underline underline-offset-4'
+		}`}
+						>
 							<Link href="/#about">About</Link>
 						</li>
-						<li className="ml-10 text-sm uppercase transition duration-200 ease-in-out hover:underline hover:text-[#0047AB]">
+
+						{/* <li className="ml-10 text-sm uppercase transition duration-200 ease-in-out hover:underline hover:text-[#0047AB]">
+							<Link href="/#skills">Skills</Link>
+						</li> */}
+						<li
+							className={`ml-10 text-sm uppercase transition duration-200 ease-in-out 
+    hover:underline hover:underline-offset-4 hover:text-[#0047AB]
+    ${
+			isActive('/#skills') &&
+			'font bold text-[#0047AB] underline underline-offset-4'
+		}`}
+						>
 							<Link href="/#skills">Skills</Link>
 						</li>
-						<li className="ml-10 text-sm uppercase transition duration-200 ease-in-out hover:underline hover:text-[#0047AB]">
+
+						{/* <li className="ml-10 text-sm uppercase transition duration-200 ease-in-out hover:underline hover:text-[#0047AB]">
+							<Link href="/#projects">Projects</Link>
+						</li> */}
+
+						<li
+							className={`ml-10 text-sm uppercase transition duration-200 ease-in-out 
+    hover:underline hover:underline-offset-4 hover:text-[#0047AB]
+    ${
+			isActive('/#projects') &&
+			'font bold text-[#0047AB] underline underline-offset-4'
+		}`}
+							underline-offset-4
+						>
 							<Link href="/#projects">Projects</Link>
 						</li>
-						<li className="ml-10 text-sm uppercase transition duration-200 ease-in-out hover:underline hover:text-[#0047AB]">
+
+						{/* <li className="ml-10 text-sm uppercase transition duration-200 ease-in-out hover:underline hover:text-[#0047AB]">
+							<Link href="/resume">Resume</Link>
+						</li> */}
+						<li
+							className={`ml-10 text-sm uppercase transition duration-200 ease-in-out 
+    hover:underline hover:underline-offset-4 hover:text-[#0047AB]
+    ${
+			isActive('/resume') &&
+			'font bold text-[#0047AB] underline underline-offset-4'
+		}`}
+						>
 							<Link href="/resume">Resume</Link>
 						</li>
-						<li className="ml-10 text-sm uppercase transition duration-200 ease-in-out hover:underline hover:text-[#0047AB]">
+						{/* <li className="ml-10 text-sm uppercase transition duration-200 ease-in-out hover:underline hover:text-[#0047AB]">
+							<Link href="/#contact">Contact</Link>
+						</li> */}
+						<li
+							className={`ml-10 text-sm uppercase transition duration-200 ease-in-out 
+    hover:underline hover:underline-offset-4 hover:text-[#0047AB]
+    ${
+			isActive('/#contact') &&
+			'font bold text-[#0047AB] underline underline-offset-4'
+		}`}
+						>
 							<Link href="/#contact">Contact</Link>
 						</li>
 						<li className="ml-10 text-sm">
