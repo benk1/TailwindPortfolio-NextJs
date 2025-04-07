@@ -4,11 +4,8 @@ import React, { useState, useEffect } from 'react';
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-// import { useRouter } from 'next/router';
-// import NavLogo from '../public/assets/images/BERNARDKAKENGI.png';
 import NavLogo from '../public/assets/images/bernardkakengi.png';
 
-import moon from '../public/assets/images/moon.png';
 import { useRouter } from 'next/router';
 
 const Navbar = () => {
@@ -72,11 +69,6 @@ const Navbar = () => {
 							darkToggle && 'dark:bg-slate-900'
 					  }`
 			}
-
-			// style={{ backgroundColor: `${navBg}` }}
-			// className={`fixed w-full z-[100] ease-in-out duration-300 px-4 h-[40px] sm:h-[50px] md:px-16
-			//   ${shadow ? 'shadow-xl' : ''}
-			//   ${darkToggle ? 'dark:bg-slate-900' : ''}`}
 		>
 			<div className="flex items-center justify-between w-full px-2 text-lg 2xl:px-16">
 				<Link href="/">
@@ -99,12 +91,9 @@ const Navbar = () => {
 						style={{ color: `${linkColor}` }}
 						className="items-center hidden gap-3 md:flex text-[#002DA1]"
 					>
-						{/* <li className="ml-10 text-sm uppercase transition duration-200 ease-in-out hover:underline hover:text-[#0047AB]">
-							<Link href="/">Home</Link>
-						</li> */}
 						<li
 							className={`ml-10 text-sm uppercase transition duration-200 ease-in-out 
-    hover:underline hover:underline-offset-4 hover:text-[#0047AB]
+     hover:underline-offset-4 hover:text-[#0047AB]
     ${
 			isActive('/') && 'font bold text-[#0047AB] underline underline-offset-4'
 		}`}
@@ -112,12 +101,9 @@ const Navbar = () => {
 							<Link href="/">Home</Link>
 						</li>
 
-						{/* <li className="ml-10 text-sm uppercase transition duration-200 ease-in-out hover:underline hover:text-[#0047AB]">
-							<Link href="/#about">About</Link>
-						</li> */}
 						<li
 							className={`ml-10 text-sm uppercase transition duration-200 ease-in-out 
-    hover:underline hover:underline-offset-4 hover:text-[#0047AB]
+     hover:underline-offset-4 hover:text-[#0047AB]
     ${
 			isActive('/#about') &&
 			'font bold text-[#0047AB] underline underline-offset-4'
@@ -126,12 +112,9 @@ const Navbar = () => {
 							<Link href="/#about">About</Link>
 						</li>
 
-						{/* <li className="ml-10 text-sm uppercase transition duration-200 ease-in-out hover:underline hover:text-[#0047AB]">
-							<Link href="/#skills">Skills</Link>
-						</li> */}
 						<li
 							className={`ml-10 text-sm uppercase transition duration-200 ease-in-out 
-    hover:underline hover:underline-offset-4 hover:text-[#0047AB]
+     hover:underline-offset-4 hover:text-[#0047AB]
     ${
 			isActive('/#skills') &&
 			'font bold text-[#0047AB] underline underline-offset-4'
@@ -140,13 +123,9 @@ const Navbar = () => {
 							<Link href="/#skills">Skills</Link>
 						</li>
 
-						{/* <li className="ml-10 text-sm uppercase transition duration-200 ease-in-out hover:underline hover:text-[#0047AB]">
-							<Link href="/#projects">Projects</Link>
-						</li> */}
-
 						<li
 							className={`ml-10 text-sm uppercase transition duration-200 ease-in-out 
-    hover:underline hover:underline-offset-4 hover:text-[#0047AB]
+     hover:underline-offset-4 hover:text-[#0047AB]
     ${
 			isActive('/#projects') &&
 			'font bold text-[#0047AB] underline underline-offset-4'
@@ -156,12 +135,9 @@ const Navbar = () => {
 							<Link href="/#projects">Projects</Link>
 						</li>
 
-						{/* <li className="ml-10 text-sm uppercase transition duration-200 ease-in-out hover:underline hover:text-[#0047AB]">
-							<Link href="/resume">Resume</Link>
-						</li> */}
 						<li
 							className={`ml-10 text-sm uppercase transition duration-200 ease-in-out 
-    hover:underline hover:underline-offset-4 hover:text-[#0047AB]
+     hover:underline-offset-4 hover:text-[#0047AB]
     ${
 			isActive('/resume') &&
 			'font bold text-[#0047AB] underline underline-offset-4'
@@ -169,12 +145,10 @@ const Navbar = () => {
 						>
 							<Link href="/resume">Resume</Link>
 						</li>
-						{/* <li className="ml-10 text-sm uppercase transition duration-200 ease-in-out hover:underline hover:text-[#0047AB]">
-							<Link href="/#contact">Contact</Link>
-						</li> */}
+
 						<li
 							className={`ml-10 text-sm uppercase transition duration-200 ease-in-out 
-    hover:underline hover:underline-offset-4 hover:text-[#0047AB]
+     hover:underline-offset-4 hover:text-[#0047AB]
     ${
 			isActive('/#contact') &&
 			'font bold text-[#0047AB] underline underline-offset-4'
