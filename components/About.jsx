@@ -11,79 +11,64 @@ const About = () => {
 					<p className="font-bold tracking-widest text-blue-700 uppercase text6xl ">
 						About
 					</p>
-					<h2 className="py-4">Who I Am</h2>
+					<h2 className="py-4">Who I Am:</h2>
 					<p className="py-2 text-gray-600">
-						I am a Web Developer with a passion for building intuitive and
-						engaging applications. Since graduating from Metropolia University
-						of Applied Sciences in Helsinki, Finland, I have had the opportunity
-						to work on multiple IT projects, gaining hands-on experience in
-						front-end development and some exposure to backend technologies.
-						Currently, I focus on front-end development, creating responsive and
-						user-friendly interfaces that connect seamlessly with APIs and
-						backend services. While my primary expertise is in React,NextJs,
-						JavaScript, HTML, and CSS, I enjoy learning new technologies and
-						adapting to different tools as needed. Beyond development, I have a
-						growing interest in web design, ensuring that applications are not
-						just functional but also visually appealing and accessible. I
-						believe that being a great developer is about choosing the right
-						tools for the job and continuously improving my skills.
+						I’m a passionate Front-End Developer based in Helsinki. I specialize
+						in building intuitive, responsive, and visually engaging
+						applications using React, Next.js, JavaScript, HTML, and CSS. My
+						journey into web development began in 2017, and since then, I’ve
+						worked across multiple industries and platforms from CMS sites on
+						WordPress and Shopify to full-stack applications connected to APIs
+						and backend services. After graduating with a Bachelor of
+						Engineering in Information Technology from Metropolia University of
+						Applied Sciences, I kicked off my career with hands-on experience in
+						Ruby and Ruby on Rails as a trainee at Sibesonke Ltd in Espoo. Since
+						then, I’ve collaborated with companies like Integrify Oy, BearIT Oy,
+						and most recently, twoday Oy, contributing as a consultant on
+						various impactful projects.
 					</p>
+					<h2 className="py-4">What I Do Best:</h2>
 					<p className="py-2 text-gray-600">
-						I started web developement in 2017 manage to build multiple websites
-						on CMS platforms such as WordPress,Shopify, and e-Commerce
-						solutions. I have experience working directly with clients
-						transforming mock wireframes into fully deployed applications.
-					</p>
-
-					<p className="py-2 text-gray-600">
-						I am passionate about creating and improving applications. In my
-						Software development career, My journey in software development
-						began with Ruby, progressing into Ruby on Rails, where I worked on
-						various projects as a trainee at Sibesonke Ltd in Espoo, Finland.
-						During my time there, I gained hands-on experience in web
-						development, functional and unit testing. I had a great time working
-						on different software development methodologies including functional
-						and unit testing on the process. Later, I joined Integrify Oy
-						located in the heart of Helsinki city, where I expanded my skills
-						and solidified myself as a web developer. Following that, I worked
-						at BearIT Oy as a consultant, contributing to multiple projects
-						across different industries.I then moved to twoday Oy, where I
-						continued working as a consultant until March 2025, specializing in
-						front-end development and building impactful applications.
-						Currently, I am currently seeking a new challenge in front-end
-						development, where I can contribute my skills and continue growing
-						as a web developer. Feel free to explore more of my previous
-						projects, both personal and hobby-based, on my GitHub.{'   '}
-						<a className="text-gray-600 about" href="https://github.com/benk1/">
-							Click here
-						</a>{' '}
+						<li>Crafting clean, accessible, and user-first interfaces</li>
+						<li>
+							Collaborating with teams to deliver elegant, scalable solutions
+						</li>
+						<li>Writing maintainable, tested, and well-structured code</li>
+						<li>Always staying curious and learning new tools when needed</li>
+						<br />
+						I’ve also explored backend technologies and databases like MySQL,
+						MongoDB, and I regularly use Git for version control. Tools like VS
+						Code, IntelliJ, and Figma are part of my daily workflow.
 					</p>
 
-					<p className="py-2 text-gray-600">
-						I have strong communication skills and adapt easily to different
-						working environments.I am highly motivated,hardworking and quick to
-						learn, always maintaining a positive attitude under pressure. These
-						qualities have shaped who I am today. Currently, I specialize in
-						front-end development while expanding my skills as a full-stack
-						developer.I am proficient in Git(version control), MySQL, MongoDB,
-						and Regular Expressions, with experience using multiple code editors
-						such as Visual Studio Code, IntelliJ, and Atom. As a Bachelor of
-						Engineering graduate in Information Technology, I have a flexible
-						skill set and the ability to adapt to various IT-related roles
-						beyond my primary expertise. My experience has taught me to work
-						effectively with different tools and quickly adapt to new
-						environments.
-					</p>
+					<h2 className="py-4"> My Work Style:</h2>
 
 					<p className="py-2 text-gray-600">
-						I have experience working in collaborative team environments across
-						various projects. . I enjoy working with diverse groups of people
-						and continuously seek opportunities to learn and challenge myself.
-						Beyond technology, I have a strong interest in foreign languages, as
-						they allow me to understand different cultures and communities.
-						Having lived in Finland for several years, I have developed
-						proficiency in Finnish, and I am fluent in both written and spoken
-						English.
+						I thrive in collaborative environments and easily adapt to different
+						teams and tech stacks. I believe that good communication, a growth
+						mindset, and a positive attitude under pressure are just as
+						important as technical skills. Whether working remotely or onsite, I
+						bring high energy, reliability, and a desire to grow always.
+					</p>
+
+					<h2 className="py-4"> Beyond the Code:</h2>
+
+					<p className="py-2 text-gray-600">
+						Outside tech, I’m passionate about languages and cultures. I speak
+						fluent English, have developed strong proficiency in Finnish, and
+						enjoy connecting with people from diverse backgrounds. To recharge,
+						I stay active: whether it’s playing football, lifting at the gym, or
+						enjoying long summer jogs through the parks — I make time for
+						wellness and balance.
+					</p>
+
+					<h2 className="py-4"> Let’s Build Something Great:</h2>
+
+					<p className="py-2 text-gray-600">
+						I’m currently open to new opportunities in front-end development. If
+						you’re looking for a developer who’s passionate about both clean
+						code and great design, feel free to  reach out
+						directly.
 					</p>
 					<p className="py-2 text-gray-600">
 						In my free time, I prioritize staying active and maintaining a
