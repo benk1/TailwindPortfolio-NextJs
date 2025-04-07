@@ -163,11 +163,13 @@ const Contact = () => {
 											<label className="py-2 text-sm uppercase">
 												Phone Number
 											</label>
+											
 											<input
 												className="flex p-3 border-2 border-gray-300 rounded-lg"
-												type="number"
+												type="text"
 												name="phone"
-												min="0"
+												inputMode="numeric"
+												pattern="^\+?[0-9]*$"
 												value={formData.phone}
 												onChange={handleChange}
 											/>
