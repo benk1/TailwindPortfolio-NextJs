@@ -69,13 +69,6 @@ const About = () => {
 						you’re looking for a developer who’s passionate about both clean
 						code and great design, feel free to reach out directly.
 					</p>
-					<p className="py-2 text-gray-600">
-						In my free time, I prioritize staying active and maintaining a
-						healthy lifestyle through various sports.Football (soccer) is my
-						favorite, and I enjoy playing regularly. A few times a week, I go to
-						the gym to stay fit, and during the summer, I love evening jogs and
-						long walks in nature, especially around parks.
-					</p>
 				</div>
 				<div className="flex items-center justify-center w-full h-auto p-4 m-auto duration-300 ease-in shadow-xl shadow-gray-400 rounded-xl hover:scale-105 md:hidden">
 					<Image src={AboutImg} className="rounded-xl " alt="/" />
