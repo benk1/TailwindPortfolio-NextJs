@@ -38,9 +38,9 @@ const resume = () => {
 						>
 							<FaLinkedinIn size={20} style={{ marginRight: '1rem' }} />
 						</a>
-						<a href="https://github.com/benk1" target="_blank" rel="noreferrer">
+						{/* <a href="https://github.com/benk1" target="_blank" rel="noreferrer">
 							<FaGithub size={20} style={{ marginRight: '1rem' }} />
-						</a>
+						</a> */}
 					</div>
 				</div>
 				<div className="py-4 text-xl font-bold tracking-wider uppercase">

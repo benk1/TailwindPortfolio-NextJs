@@ -94,7 +94,7 @@ const Contact = () => {
 											LinkedIn
 										</span>
 									</a>
-									<a
+									{/* <a
 										href="https://github.com/benk1"
 										target="_blank"
 										rel="noreferrer"
@@ -106,7 +106,7 @@ const Contact = () => {
 										<span className="absolute px-2 py-1 text-xs text-white transition -translate-x-1/2 bg-black rounded opacity-0 top-20 left-1/2 group-hover:opacity-100">
 											GitHub
 										</span>
-									</a>
+									</a> */}
 
 									<Link href="#contact">
 										<a className="relative group">
@@ -142,12 +142,7 @@ const Contact = () => {
 									Your message has been sent successfully!
 								</div>
 							) : (
-								<form
-									// action="https://getform.io/f/d98e5e3c-7587-44d2-b918-6d202e44ff0a"
-									// method="POST"
-									// encType="multipart/form-data"
-									onSubmit={handleSubmit}
-								>
+								<form onSubmit={handleSubmit}>
 									<div className="grid w-full gap-4 py-2 md:grid-cols-2">
 										<div className="flex flex-col">
 											<label className="py-2 text-sm uppercase">Name</label>
@@ -163,7 +158,7 @@ const Contact = () => {
 											<label className="py-2 text-sm uppercase">
 												Phone Number
 											</label>
-											
+
 											<input
 												className="flex p-3 border-2 border-gray-300 rounded-lg"
 												type="text"

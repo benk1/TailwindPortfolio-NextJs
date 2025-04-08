@@ -1,8 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
 import AboutImg from '../public/assets/images/about.jpg';
-//Note to play with this md:h-screen in first div
 const About = () => {
 	return (
 		<div id="about" className="flex items-center w-full p-2 px-4 ">
