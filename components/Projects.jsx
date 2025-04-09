@@ -22,7 +22,7 @@ const Projects = () => {
 				<div className="flex items-center w-full p-2 py-16 pt-4">
 					<ul>
 						<li>
-							<b>twoday AI Works unit </b>- Worked on twoday's Artificial
+							<b>twoday AI Agent unit </b>- Worked on twoday's Artificial
 							Intelligent as a front-end developer. Developed user interfaces
 							that serves as your company's personal superintelligence by
 							leveraging the power of the GPT language model, it enhances data
@@ -76,6 +76,13 @@ const Projects = () => {
 							<b>Oskari Project</b> - Patly participated in bearIt internal
 							project for developing a survey system for industry
 							customers(Oscari)
+						</li>
+						<br />
+						<li>
+							{' '}
+							<b>Integrify Oy</b> - Member of Integrify, state-of-the-art
+							software developer program, learning and working on modern
+							software development.
 						</li>
 						<li></li>
 					</ul>
