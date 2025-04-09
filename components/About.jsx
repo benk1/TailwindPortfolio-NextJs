@@ -16,11 +16,11 @@ const About = () => {
 						applications using React, Next.js, JavaScript, HTML, and CSS. My
 						journey into web development began in 2017, and since then, I’ve
 						worked across multiple industries and platforms from CMS sites on
-						WordPress and Shopify to full-stack applications connected to APIs
-						and backend services. After graduating with a Bachelor of
-						Engineering in Information Technology from Metropolia University of
-						Applied Sciences, I kicked off my career with hands-on experience in
-						Ruby and Ruby on Rails as a trainee at Sibesonke Ltd in Espoo. Since
+						WordPress to full-stack applications connected to APIs and backend
+						services. After graduating with a Bachelor of Engineering in
+						Information Technology from Metropolia University of Applied
+						Sciences, I kicked off my career with hands-on experience in Ruby
+						and Ruby on Rails as a trainee at Sibesonke Ltd in Espoo. Since
 						then, I’ve collaborated with companies like Integrify Oy, BearIT Oy,
 						and most recently, twoday Oy, contributing as a consultant on
 						various impactful projects.
