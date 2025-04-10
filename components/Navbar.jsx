@@ -268,7 +268,7 @@ const Navbar = () => {
 										<FaLinkedinIn />
 									</div>
 								</a>
-								<a
+								{/* <a
 									href="https://github.com/fireclint"
 									target="_blank"
 									rel="noreferrer"
@@ -276,7 +276,7 @@ const Navbar = () => {
 									<div className="p-3 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105">
 										<FaGithub />
 									</div>
-								</a>
+								</a> */}
 								<Link href="/#contact">
 									<div
 										onClick={() => setNav(!nav)}
