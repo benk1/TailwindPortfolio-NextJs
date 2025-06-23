@@ -127,7 +127,7 @@ const resume = () => {
 								superintelligence, leveraging GPT language models to enhance
 								data processing, automation, and business operations.
 							</li>
-							<li>
+							{/* <li>
 								<b>Valmet oy</b> - worked on paper Machine reference Database
 								project(PM-ref DB){''}
 								The PM Reference DB project aimed to develop a tool for
@@ -135,6 +135,21 @@ const resume = () => {
 								It facilitates the creation of hierarchical structures that
 								depict the operation and logical layout of paper machines,
 								linking measurement parameters to specific components. <br />
+							</li> */}
+							<li>
+								<b>Valmet Oy</b> - <b>Full-Stack Developer</b> – Valmet PMref DB
+								Project - Worked on the PM Reference DB project, a full-stack
+								web solution for managing and visualizing paper machine
+								hierarchies and sensor data. Developed and maintained two
+								React-based web clients: A hierarchy tool for building machine
+								structures,  A visualization tool integrating Tableau dashboards
+								On the backend, contributed to Python Flask-based AWS Lambda
+								functions, handling data operations and integrations with
+								DynamoDB and Snowflake. Built and deployed serverless
+								infrastructure using the Serverless Framework, with API Gateway,
+								S3, Cognito, and CloudFormation. Used CI/CD pipelines in Jenkins
+								for automated deployments across dev, test, and prod
+								environments.
 							</li>
 						</li>
 
