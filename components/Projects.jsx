@@ -22,7 +22,7 @@ const Projects = () => {
 				<div className="flex items-center w-full p-2 py-16 pt-4">
 					<ul>
 						<li>
-							<b>twoday AI Agent unit </b>- Worked on twoday's Artificial
+							<b>twoday AI Agent</b>- Worked on twoday's Artificial
 							Intelligent as a front-end developer. Developed user interfaces
 							that serves as your company's personal superintelligence by
 							leveraging the power of the GPT language model, it enhances data
