@@ -57,17 +57,19 @@ const resume = () => {
 					</div>
 				</div>
 				<p>
-					I am a Software Engineer specializing in Web development, with a
-					strong focus on front-end technologies like React,NextJs and Redux and
-					other modern front-end technologies. Recently, I worked on an
-					AI-driven web platform (twoday AI Agent), developing an interactive
-					user experience that gained over 100 clients across Finland. <br />I
-					have participated in multiple projects during my past experience where
-					teamwork and individuality were both crucial. I am hard working, quick
-					to learn with a positive attitude under pressure. I have worked with
-					different tools from my past experience and been able to adopt
-					quickly. I have developed good communication skills and adaptability
-					to different working environments.
+					I am a Software Engineer focused in web development with strong
+					background in modern front-end technologies. Recently, I worked on an
+					AI-powered web platform (twoday's AI Agent solution - AI Agent) at
+					twoday Oy, developing Interactive features that contributed to gaining
+					over 100 clients during my time there. I have participated in multiple
+					projects as a consultant including projects for a large Finnish
+					publicly listed companies as both full stack and front end developer.
+					I am a quick learner who adapts easily to new tools and technologies.
+					I am known for staying positive under pressure and always maintain a
+					positive attitude. My experience has helped me develop strong
+					communication skills and the ability to work in different
+					environments. I enjoy creating user-friendly and innovative
+					applications while continuously improving my skills.
 				</p>
 				<br />
 
@@ -142,7 +144,7 @@ const resume = () => {
 								web solution for managing and visualizing paper machine
 								hierarchies and sensor data. Developed and maintained two
 								React-based web clients: A hierarchy tool for building machine
-								structures,  A visualization tool integrating Tableau dashboards
+								structures, A visualization tool integrating Tableau dashboards
 								On the backend, contributed to Python Flask-based AWS Lambda
 								functions, handling data operations and integrations with
 								DynamoDB and Snowflake. Built and deployed serverless
