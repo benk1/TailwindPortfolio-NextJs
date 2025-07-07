@@ -180,7 +180,7 @@ const Projects = () => {
 								{' '}
 								Technologies used:
 							</span>{' '}
-							React, Redux, Cintext API, Flex-box, MUI, NodeJs, Express,
+							React, Redux, Context API, Flex-box, MUI, NodeJs, Express,
 							JavaScript, MongoDB, MYSQL, Git, Regular expressions
 						</li>
 						<li></li>
