@@ -72,7 +72,7 @@ const Contact = () => {
 							<div>
 								<h2 className="py-2">Bernard Kakengi</h2>
 								<h3>Helsinki</h3>
-								<p>Front-End Developer</p>
+								<p>Web Developer</p>
 								<p className="py-4">
 									I am available as a consultant or full-time positions. Contact
 									me and let&apos;s have a chat.

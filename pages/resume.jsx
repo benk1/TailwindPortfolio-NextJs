@@ -59,16 +59,16 @@ const resume = () => {
 				<p>
 					I am a Software Engineer focused in web development with strong
 					background in modern front-end technologies. Recently, I worked on an
-					AI-powered web platform (twoday's AI Agent solution - AI Agent) at
-					twoday Oy, developing Interactive features that contributed to gaining
-					over 100 clients during my time there. I have participated in multiple
-					projects as a consultant including projects for a large Finnish
-					publicly listed companies as both full stack and front end developer.
-					I am a quick learner who adapts easily to new tools and technologies.
-					I am known for staying positive under pressure and always maintain a
-					positive attitude. My experience has helped me develop strong
-					communication skills and the ability to work in different
-					environments. I enjoy creating user-friendly and innovative
+					AI-powered web platform (<b>twoday's AI Agent</b> solution -{' '}
+					<b>AI Agent</b>) at twoday Oy, developing Interactive features that
+					contributed to gaining over 100 clients during my time there. I have
+					participated in multiple projects as a consultant including projects
+					for a large Finnish publicly listed companies as both full stack and
+					front end developer. I am a quick learner who adapts easily to new
+					tools and technologies. I am known for staying positive under pressure
+					and always maintain a positive attitude. My experience has helped me
+					develop strong communication skills and the ability to work in
+					different environments. I enjoy creating user-friendly and innovative
 					applications while continuously improving my skills.
 				</p>
 				<br />
