@@ -27,7 +27,7 @@ const resume = () => {
 			</Head>
 
 			<div className="max-w-[940px] mx-auto p-2 pt-[50px] md:pt-[120px] px-4 ">
-				<h2 className="font-bold text-blue-700 ">Curriculum vitae - CV</h2>
+				<h2 className="font-bold text-blue-700 ">Curriculum Vitae - CV</h2>
 				<div className="bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center">
 					<h2 className="text-center">Bernard Kakengi</h2>
 					<div className="flex">
