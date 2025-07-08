@@ -11,28 +11,31 @@ const About = () => {
 					</p>
 					<h2 className="py-4">Who I Am:</h2>
 					<p className="py-2 text-gray-600">
-						I’m a passionate Front-End Developer based in Helsinki. I specialize
-						in building intuitive, responsive, and visually engaging
+						I’m a front-end-focused web developer based in Helsinki, with a
+						passion for building responsive,accessible,and visually appealing
 						applications using React, Next.js, JavaScript, HTML, and CSS. My
 						journey into web development began in 2017, and since then, I’ve
-						worked across multiple industries and platforms from CMS sites on
-						WordPress to full-stack applications connected to APIs and backend
-						services. After graduating with a Bachelor of Engineering in
-						Information Technology from Metropolia University of Applied
-						Sciences, I kicked off my career with hands-on experience in Ruby
-						and Ruby on Rails as a trainee at Sibesonke Ltd in Espoo. Since
-						then, I’ve collaborated with companies like Integrify Oy, BearIT Oy,
-						and most recently, twoday Oy, contributing as a consultant on
-						various impactful projects.
+						worked across multiple industries and platforms from CMS websites to
+						full-stack appplications integrated with APIs and backend services.
+						After graduating with a Bachelor of Engineering in Information
+						Technology from Metropolia University of Applied Sciences in
+						Finland, I kicked off my career with hands-on experience in Ruby and
+						Ruby on Rails as a trainee at Sibesonke Ltd in Espoo. Since then,
+						I’ve collaborated with companies like <b>Integrify Oy</b>,{' '}
+						<b>BearIT Oy</b>, and most recently, <b>twoday Oy</b>, contributing
+						to a range of impactful projects as a consultant and developer.
 					</p>
 					<h2 className="py-4">What I Do Best:</h2>
 					<p className="py-2 text-gray-600">
-						<li>Crafting clean, accessible, and user-first interfaces</li>
 						<li>
-							Collaborating with teams to deliver elegant, scalable solutions
+							Building clean, accessible, easy to use interfaces that make the
+							user experience smooth.
 						</li>
-						<li>Writing maintainable, tested, and well-structured code</li>
-						<li>Always staying curious and learning new tools when needed</li>
+						<li>
+							Collaborating with teams to deliver elegant, scalable solutions.
+						</li>
+						<li>Writing maintainable, tested, and well-structured code.</li>
+						<li>Always staying curious and learning new tools when needed.</li>
 						<br />
 						I’ve also explored backend technologies and databases like MySQL,
 						MongoDB, and I regularly use Git for version control. Tools like VS
@@ -42,9 +45,9 @@ const About = () => {
 					<h2 className="py-4"> My Work Style:</h2>
 
 					<p className="py-2 text-gray-600">
-						I thrive in collaborative environments and easily adapt to different
-						teams and tech stacks. I believe that good communication, a growth
-						mindset, and a positive attitude under pressure are just as
+						I work well with others and can quickly adapt to new teams and
+						tools. I believe that good communication,
+						a growth mindset, and a positive attitude under pressure are just as
 						important as technical skills. Whether working remotely or onsite, I
 						bring high energy, reliability, and a desire to grow always.
 					</p>

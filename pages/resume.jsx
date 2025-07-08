@@ -115,19 +115,33 @@ const resume = () => {
 						<span className="px-2">|</span>Finland, Helsinki
 					</p>
 					<p className="py-1 italic">
-						Web Developer (August 2022 - March 2025)
+						Web Developer (August 2022 - March 2025) <br /> Working with
+						multiple clients to meet their requirements under given deadlines{' '}
+						<br />
 					</p>
 					<ul className="py-1 leading-relaxed list-disc list-outside px-7">
 						<li>
-							Working with multiple clients to meet their requirements under
-							given deadlines <br />
+							{/* Working with multiple clients to meet their requirements under
+							given deadlines <br /> */}
 							<li>
 								<b>twoday AI Agent</b> - Developed twoday AI-driven web platform
 								with interactive chat solutions focusing on seamless user
 								interactions and efficient data management. Built responsive
 								user interfaces that act as a company's personal
 								superintelligence, leveraging GPT language models to enhance
-								data processing, automation, and business operations.
+								data processing, automation, and business operations. <br />
+								<span className="italic text-black">
+									Front-end technologies used :
+								</span>{' '}
+								React 19, Next.js 14, TypeScript, Vite, MUI (Material UI), React
+								Query (@tanstack/react-query), REST APIs, GPT (LLM) <br />
+								<span className="italic text-black">
+									Backend Technologies used :
+								</span>{' '}
+								ASP.NET Core 8, C#, Entity Framework Core, SQL Server,
+								PostgreSQL, Azure OpenAI SDK, Microsoft Cognitive Services, JWT
+								Authentication, Serilog, Lucene.NET, PuppeteerSharp, MailKit,
+								Swagger (Swashbuckle), REST APIs
 							</li>
 							{/* <li>
 								<b>Valmet oy</b> - worked on paper Machine reference Database
@@ -139,7 +153,7 @@ const resume = () => {
 								linking measurement parameters to specific components. <br />
 							</li> */}
 							<li>
-								<b>Valmet Oy</b> - <b>Full-Stack Developer</b> – Valmet PMref DB
+								{/* <b>Valmet Oy</b> - <b>Full-Stack Developer</b> – Valmet PMref DB
 								Project - Worked on the PM Reference DB project, a full-stack
 								web solution for managing and visualizing paper machine
 								hierarchies and sensor data. Developed and maintained two
@@ -151,15 +165,76 @@ const resume = () => {
 								infrastructure using the Serverless Framework, with API Gateway,
 								S3, Cognito, and CloudFormation. Used CI/CD pipelines in Jenkins
 								for automated deployments across dev, test, and prod
-								environments.
+								environments. */}
+								<b>Valmet Oy - Full-Stack Developer</b> – Valmet PMref DB
+								Project - Worked on the PM Reference DB project, a full-stack
+								web solution for managing and visualizing paper machine
+								hierarchies and sensor data. <br />
+								<ul className="text-gray-800 list-disc list-inside">
+									{/* <li>
+									I Developed and maintained two React-based web clients:
+									<ul className="ml-6 list-disc list-inside">
+										<li>A hierarchy tool for building machine structures</li>
+										<li>A visualization tool integrating Tableau dashboards</li>
+									</ul>
+								</li> */}
+									<li>
+										Contribted to the backend by building AWS Lambda functions
+										using Python (Flask), responsible for data processing and
+										integration with DynamoDB and Snowflake.
+									</li>{' '}
+									<li>
+										Built and deployed serverless infrastructure using the
+										Serverless Framework, with services including API Gateway,
+										S3, Cognito, and CloudFormation.
+									</li>
+									<li>
+										Used Jenkins CI/CD pipelines for automated deployments
+										across development, testing, and production environments.
+									</li>
+								</ul>{' '}
+								<span className="italic text-black">
+									Front end Technologies used :
+								</span>{' '}
+								React 16.8, Redux, Redux Thunk, React Redux Form, Styled
+								Components, React Date Picker, Tableau API, Amazon Cognito Auth
+								JS, Axios, React Toastify, FontAwesome, React Scripts <br />
+								<span className="italic text-black ">
+									Back end Technologies used :
+								</span>{' '}
+								Python Flask, AWS Lambda, Serverless Framework, API Gateway, S3,
+								Cognito, DynamoDB, Snowflake, Elasticsearch, CloudFormation,
+								Jenkins CI/CD
 							</li>
 						</li>
 
 						<li>
-							<b> Kotoutumisen-Tukena</b> - Built and customized a Liferay
+							{/* <b> Kotoutumisen-Tukena</b> - Built and customized a Liferay
 							7.4-based integration support platform using React, FreeMarker,
 							and Liferay CMS. Ensured alignment with Figma designs and
-							accessibility standards.
+							accessibility standards. */}
+							<b>Kotoutumisen-Tukena</b> - I worked on improving and customizing
+							a Liferay 7.4-based platform aimed at supporting immigrant
+							integration in Finland, My focus was on front-end development
+							using React, FreeMarker, and Liferay CMS. I ensured the design
+							matched Figma specs and followed accessibility standards, making
+							the site more user-friendly for everyone.
+							<br />{' '}
+							<span className="italic text-black">
+								{' '}
+								Front-end Technologies used :
+							</span>{' '}
+							React 16, React JSONSchema Form, Semantic UI React, React Union
+							(for Liferay integration), PropTypes, React Select, Reaptcha
+							(Google reCAPTCHA), Ramda, PostCSS <br />{' '}
+							<span className="italic text-black">
+								{' '}
+								Backend Technologies used :
+							</span>
+							Java, Liferay 7.4 (OSGi-based architecture), Service Builder (for
+							persistence), REST APIs (via Liferay REST Builder), Gradle, MySQL,
+							JSP/FreeMarker for custom templates, Liferay Role & Permission
+							Management
 						</li>
 					</ul>
 				</div>
@@ -170,17 +245,19 @@ const resume = () => {
 						<span className="px-2">|</span>Finland, Helsinki
 					</p>
 					<p className="py-1 italic">
-						Front End Web Developer (January 2022 August 2022 )
+						Front End Web Developer (January 2022 August 2022 ) <br />
+						Worked as a consultant directly with a diverse client base to
+						understand and implement multiple technologies and programs.
 					</p>
 					<ul className="py-1 leading-relaxed list-disc list-outside px-7">
-						<li>
+						{/* <li>
 							Working with multiple clients to meet their requirements under
 							given deadlines
-						</li>
-						<li>
+						</li> */}
+						{/* <li>
 							Worked directly with a diverse client base to understand and
 							implement multiple technologies and programs.
-						</li>
+						</li> */}
 						<li>
 							<b>Coach App -</b> Developed a performance-tracking application
 							enabling coaches to monitor player progress, set goals, and assess
