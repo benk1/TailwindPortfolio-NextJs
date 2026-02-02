@@ -307,16 +307,11 @@ const resume = () => {
 					</p>
 					<ul className="py-1 leading-relaxed list-disc list-outside px-7">
 						<li>
-							Member of Integrify, state-of-the-art software developer program,
-							learning and working on modern software development.
+							I was part of Integrify's one year full-time mentoring program
+							which gave me the opportunity to work on real clients projects.
 						</li>
 						<li>
-							As a junior developer, my focus was JavaScript, React/Redux, Node
-							and Express.
-						</li>
-						<li>
-							Supervision led by senior software developers every day, resulting
-							in up to 1000 hours of coding.
+							The focus was JavaScript, React/Redux, Node/Express and MongoDB.
 						</li>
 					</ul>
 				</div>
