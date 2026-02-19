@@ -20,6 +20,10 @@ const Navbar = () => {
 	const router = useRouter();
 
 	useEffect(() => {
+		setNav(false);
+	}, [router.asPath]);
+
+	useEffect(() => {
 		// Only run scroll-spy on the homepage
 		if (router.pathname !== '/') return;
 
@@ -305,7 +309,7 @@ const Navbar = () => {
 						className="md:hidden inline-flex items-center justify-center p-2 bg-transparent appearance-none
 						            focus:outline-none focus-visible:ring-2 focus-visible:ring-[#E07400] rounded nav-icon-btn"
 					>
-						<AiOutlineMenu size={25} />
+						{nav ? <AiOutlineClose size={25} /> : <AiOutlineMenu size={25} />}
 					</button>
 				</div>
 			</div>
@@ -325,8 +329,8 @@ const Navbar = () => {
 				id="mobile-menu"
 				className={
 					nav
-						? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500 z-[100]'
-						: 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
+						? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500 z-[100] opacity-100 pointer-events-auto'
+						: 'fixed left-[-100%] top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500 z-[100] opacity-0 pointer-events-none'
 				}
 			>
 				<div>
