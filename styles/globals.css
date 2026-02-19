@@ -4,28 +4,33 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-html {
-	scroll-behavior: smooth;
-	font-family: 'Raleway', sans-serif;
-}
 .about {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 .success-message {
-    text-align: center;
-    color: green;
-    font-size: 1.2rem;
-    margin-top: 20px;
-    padding: 10px;
-    background-color: #ebf8f2; /* Light green background */
-    border: 1px solid #d4edda; /* Slightly darker green border */
-    border-radius: 5px;
+	text-align: center;
+	color: green;
+	font-size: 1.2rem;
+	margin-top: 20px;
+	padding: 10px;
+	background-color: #ebf8f2;
+	border: 1px solid #d4edda;
+	border-radius: 5px;
 }
-
 
 @layer base {
 	body {
-		@apply bg-[#ecf0f3] text-[#1f2937] tracking-wide dark:bg-[#121212] dark:text-white;
+		@apply bg-[#ecf0f3] text-[#1f2937] tracking-wide;
+		color: var(--text-primary);
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		@apply font-bold;
 	}
 
 	h1,
@@ -54,8 +59,55 @@ html {
 	}
 }
 
-.dark body {
-    /* background-color: #121212 !important; */
-    color: white !important;
+.card-surface {
+	background-color: var(--card-bg);
+	border: 1px solid var(--border-color);
 }
 
+.dark body {
+	/* background-color: #121212 !important; */
+	/* color: white !important; */
+}
+button.nav-icon-btn {
+	background-image: none !important;
+	background-color: transparent !important;
+	box-shadow: none !important;
+	text-transform: none !important;
+}
+
+:root {
+	--nav-height: 72px;
+
+	--bg-primary: #ecf0f3;
+	--text-primary: #1f2937;
+	--card-bg: #ffffff;
+	--border-color: #d1d5db;
+}
+
+body[data-theme='dark'] {
+	--bg-primary: #020617;
+	--text-primary: #ffffff;
+	--card-bg: #0f172a;
+	--border-color: #334155;
+}
+
+/* Offset for anchor jumps */
+html {
+	scroll-margin-top: calc(var(--nav-height) + 12px);
+}
+.section-offset {
+	scroll-margin-top: calc(var(--nav-height) + 12px);
+}
+
+@media (max-width: 768px) {
+	:root {
+		--nav-height: 56px;
+	}
+	.section-offset {
+		scroll-margin-top: calc(var(--nav-height) +8px);
+	}
+
+	html {
+		scroll-padding-top: calc(var(--nav-height) + 8px);
+	}
+}

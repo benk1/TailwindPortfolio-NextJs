@@ -1,7 +1,5 @@
 import Navbar from '../components/Navbar';
 import '../styles/globals.css';
-import profilePic from '../public/assets/images/profile_pic.jpg';
-import Image from 'next/image';
 import Head from 'next/head';
 
 function MyApp({ Component, pageProps }) {
