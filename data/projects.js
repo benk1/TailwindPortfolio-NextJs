@@ -97,7 +97,7 @@ export const projects = [
 	{
 		id: 'coach-app',
 		title: 'Coach App',
-		role: 'Front-end Developer',
+		role: 'Full stack Developer',
 		description:
 			'Developed a performance-tracking app enabling coaches to monitor player progress, set goals, and assess capabilities based on training and game data. Collaborated with coaches and backend team for real-time data integration.',
 		frontEnd: [
