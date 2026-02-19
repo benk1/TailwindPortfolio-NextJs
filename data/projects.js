@@ -4,7 +4,7 @@ export const projects = [
 		title: 'twoday AI Agent',
 		role: 'Front-end Developer (Consultant)',
 		description:
-			'I worked on the development of twoday’s AI-powered web platform, where I built interactive and accessible chat interfaces and features to improve how users interact with the system. My role as a front end developer was purely focused on creating responsive user interfaces and integrating GPT-based language models to make data handling, automation, and business tasks smarter and more efficient.',
+			'I worked on the development of twoday’s AI-powered web platform(twoday AI-Agent) as part of a cross functional team together with backend and AI engineers, where I built responsive, interactive and accessible chat interfaces and integrating them with backend APIs and GPT-based language model services. My role as a front end developer was purely handling real-time data flow, managing application state, and ensuring that AI-driven features were intuitive, reliable, and performant for end users.',
 		frontEnd: [
 			'React 19',
 			'Next.js 14',
@@ -90,7 +90,7 @@ export const projects = [
 		links: [
 			{
 				label: 'Visit the live service (in Finnish)',
-				href: 'https://kotoutumisentukena.fi/'
+				href: 'https://kotoutumisentukena.fi/',
 			},
 		],
 	},
