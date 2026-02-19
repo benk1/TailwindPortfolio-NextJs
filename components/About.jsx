@@ -77,9 +77,9 @@ const About = () => {
 						<p className="py-2 leading-relaxed ">
 							Outside tech, I’m passionate about languages and cultures. I speak
 							fluent English, have developed strong proficiency in Finnish, and
-							enjoy connecting with people from diverse backgrounds. To
-							recharge, I stay active—playing football, lifting at the gym, or
-							enjoying long summer jogs through the parks.
+							enjoy connecting with people from different backgrounds. To
+							recharge, I stay active playing football, lifting at the gym, or
+							going out for a run.
 						</p>
 
 						<h3 className="py-4 text-xl font-bold">
