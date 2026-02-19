@@ -1,4 +1,3 @@
-
 export const projects = [
 	{
 		id: 'twoday-ai-agent',
@@ -90,8 +89,8 @@ export const projects = [
 		],
 		links: [
 			{
-				label: 'Visit the site (in Finnish)',
-				href: 'https://kotoutumistukena.fi/en/front-page',
+				label: 'Visit the live service (in Finnish)',
+				href: 'https://kotoutumisentukena.fi/'
 			},
 		],
 	},

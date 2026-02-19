@@ -55,11 +55,14 @@ const ProjectCard = ({
 					<ul className="space-y-2">
 						{links.map((l) => (
 							<li key={l.href}>
-								<Link href={l.href} target="_blank" rel="noopener noreferrer">
-									<span className="text-blue-700 underline hover:text-blue-800">
-										{l.label}
-									</span>
-								</Link>
+								<a
+									href={l.href}
+									target="_blank"
+									rel="noopener noreferrer"
+									className="text-blue-700 underline hover:text-blue-800"
+								>
+									{l.label}
+								</a>
 							</li>
 						))}
 					</ul>
