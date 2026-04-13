@@ -292,7 +292,7 @@ const Resume = () => {
 							<span className="px-2">|</span>Finland, Helsinki
 						</p>
 						<p className="py-1 italic">
-							Junior Developer (August June 2014 - August 2016 )
+							Junior Developer (August June 2014 - August 2017 )
 						</p>
 						<ul className="py-1 leading-relaxed list-disc list-outside px-7">
 							<li>
