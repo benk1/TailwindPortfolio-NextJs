@@ -175,7 +175,9 @@ const Resume = () => {
 											across development, testing, and production environments.
 										</li>
 									</ul>{' '}
-									<span className="italic "><b>Front end Technologies used :</b></span>{' '}
+									<span className="italic ">
+										<b>Front end Technologies used :</b>
+									</span>{' '}
 									React 16.8, Redux, Redux Thunk, React Redux Form, Styled
 									Components, React Date Picker, Tableau API, Amazon Cognito
 									Auth JS, Axios, React Toastify, FontAwesome, React Scripts{' '}
@@ -355,8 +357,7 @@ const Resume = () => {
 
 						<ul className="py-1 leading-relaxed list-disc list-outside px-7">
 							<li>
-								B.Engineering. Information Technology - Metropolia AMK, 2006
-								-2012
+								B.Engineering. Information Technology - Metropolia AMK, 2012
 							</li>
 							<li>Makongo High School - Dar es Salaam,Tanzana, 1998 - 2000</li>
 						</ul>
