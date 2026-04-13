@@ -149,4 +149,24 @@ export const projects = [
 		backEnd: ['Node.js', 'Express', 'MongoDB', 'MySQL'],
 		links: [],
 	},
+
+	{
+		id: 'sibesonke',
+		title: 'Sibesonke Ltd ',
+		role: 'Full stack Developer (Internship)',
+		description:
+			'Developed a back-end tracing tool using Ruby on Rails, improving system efficiency. Worked with Active Record ORM to manipulate databases efficiently. Performed database management and optimization using MySQL. Utilized Git for version control and collaborative development. Strong proficiency in Regular Expressions for data parsing and validation. Good working knowledge of Linux (Ubuntu).',
+		frontEnd: ['HTML', 'CSS', 'JavaScript', 'jQuery', 'Bootstrap', 'React'],
+		backEnd: [
+			'Python',
+			'MySQL',
+			'Ruby on Rails',
+			'Active Record ORM',
+			'Ruby',
+			'Git',
+			'Regular Expressions',
+			'Linux (Ubuntu)',
+		],
+		links: [],
+	},
 ];
