@@ -356,10 +356,30 @@ const Resume = () => {
 						</p>
 
 						<ul className="py-1 leading-relaxed list-disc list-outside px-7">
-							<li>
+							{/* <li>
 								B.Engineering. Information Technology - Metropolia AMK, 2012
 							</li>
-							<li>Makongo High School - Dar es Salaam,Tanzana, 1998 - 2000</li>
+							<li>Makongo High School - Dar es Salaam,Tanzana, 1998 - 2000</li> */}
+
+							<li>
+								<b>Master of Engineering (UAS), Information Technology</b>
+								<br />
+								Metropolia University of Applied Sciences
+								<br />
+								2026 - Present (Expected graduation 2027)
+							</li>
+
+							<li className="mt-4">
+								<b>Bachelor of Engineering, Information Technology</b>
+								<br />
+								Metropolia University of Applied Sciences
+								<br />
+								2006 - 2012
+							</li>
+
+							<li className="mt-4">
+								Makongo High School - Dar es Salaam, Tanzania, 1998 - 2000
+							</li>
 						</ul>
 					</section>
 				</section>
